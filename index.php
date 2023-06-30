@@ -80,17 +80,6 @@
                             <li class="nav-item mx-1">
                                 <a class="nav-link fs-5 fw-bold nav-contacto" href="contacto.php">Contacto y Soporte</a>
                             </li>
-                            <!--<li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Dropdown
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><hr class="dropdown-divider"></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </li>-->
                         </ul>
                         <div class="flex">
                             <div class="me-2"><i class="bi bi-person-circle"></i> Login</div>
@@ -113,14 +102,11 @@
             </div>
 
             <div class="container-paquetes mx-5">
-                <!--<h1 class="texto-prueba">prueba</h1>-->
                 <div class="row mx-5">
                     <div class="col hvr-grow">
                         <div class="card h-100 card-paquete1">
                             <div class="card-header text-center header-pa1">
                             <img src="./assets/img/inicio/paquete1_1.png" class="w-100" alt="">
-                                <!--<span class="text-white fst-italic fs-1 fw-bold">50</span> <span class="fst-italic fs-1 fw-bold text-megas">MEGAS</span>
-                                <p class="text-white fst-italic fw-bold">INTERNET + KUALITV</p>-->
                             </div>
                             <div class="card-body">
                                 <p class="card-text"><img src="./assets/img/inicio/internet.png" width="30" height="30" alt=""> INTERNET 100% <br> DE FIBRA ÓPTICA</p>
@@ -130,7 +116,6 @@
                             </div>
                             <div class="card-footer text-center footer-pa1">
                             <img src="./assets/img/inicio/paquete1_2.png" class="w-100" alt="">
-                            <span >Quiero Info <img src="" alt=""></span>
                                 <!--<span class="fst-italic fs-1 fw-bold text-white">$399</span> <span class="fs-5 fw-bold fst-italic text-mes">al mes</span>
                                 <span class="text-white fs-4">Quiero info <i class="bi bi-chevron-down"></i></span>-->
                                 <!-- Button trigger modal -->
@@ -140,7 +125,7 @@
                     </div>
                     <div class="col hvr-grow">
                         <div class="card h-100 card-paquete2">
-                            <div class="card-header header-pa2"><img src="./assets/img/inicio/paquete2_1.png" class="w-100" alt=""></div>
+                            <div class="card-header header-pa2">Header</div>
                             <div class="card-body">
                                 <p class="card-text"><img src="./assets/img/inicio/internet.png" width="30" height="30" alt=""> INTERNET 100% <br> DE FIBRA ÓPTICA</p>
                                 <p class="card-text"><img src="./assets/img/inicio/atencion.png" width="30" height="30" alt=""> ATENCIÓN <br> PERSONALIZADA</p>
@@ -148,13 +133,13 @@
                                 <p class="card-text"><img src="./assets/img/inicio/kualitv.png" width="30" height="30" alt=""> + DE 60 CANALES DE TV</p>
                             </div>
                             <div class="card-footer footer-pa2">
-                                <small class="text-body-secondary"><img src="./assets/img/inicio/paquete2_2.png" class="w-100" alt=""></small>
+                                <small class="text-body-secondary">Footer</small>
                             </div>
                         </div>
                     </div>
                     <div class="col hvr-grow">
                         <div class="card h-100 card-paquete3">
-                        <div class="card-header header-pa3">header</div>
+                        <div class="card-header header-pa3">Header</div>
                             <div class="card-body">
                                 <p class="card-text"><img src="./assets/img/inicio/internet.png" width="30" height="30" alt=""> INTERNET 100% <br> DE FIBRA ÓPTICA</p>
                                 <p class="card-text"><img src="./assets/img/inicio/atencion.png" width="30" height="30" alt=""> ATENCIÓN <br> PERSONALIZADA</p>
@@ -162,13 +147,13 @@
                                 <p class="card-text"><img src="./assets/img/inicio/kualitv.png" width="30" height="30" alt=""> + DE 60 CANALES DE TV</p>
                             </div>
                             <div class="card-footer header-pa3">
-                                <small class="text-body-secondary">footer</small>
+                                <small class="text-body-secondary">Footer</small>
                             </div>
                         </div>
                     </div>
                     <div class="col hvr-grow">
                         <div class="card h-100 card-paquete4">
-                        <div class="card-header header-pa4">header</div>
+                        <div class="card-header header-pa4">Header</div>
                             <div class="card-body">
                                 <p class="card-text"><img src="./assets/img/inicio/internet.png" width="30" height="30" alt=""> INTERNET 100% <br> DE FIBRA ÓPTICA</p>
                                 <p class="card-text"><img src="./assets/img/inicio/atencion.png" width="30" height="30" alt=""> ATENCIÓN <br> PERSONALIZADA</p>
@@ -176,7 +161,7 @@
                                 <p class="card-text"><img src="./assets/img/inicio/kualitv.png" width="30" height="30" alt=""> + DE 60 CANALES DE TV</p>
                             </div>
                             <div class="card-footer footer-pa4">
-                                <small class="text-body-secondary">footer</small>
+                                <small class="text-body-secondary">Footer</small>
                             </div>
                         </div>
                     </div>
@@ -295,23 +280,6 @@
                 <p class="text-center fw-bold text-contactanos">¡CONTÁCTANOS!</p>
                 <img src="./assets/img/inicio/contactanos.png" class="img-fluid d-block w-100" alt="">
             </div>
-
-            <!--<div class="my-5">
-            <div class="container-text">
-                <h1 class="text-center fw-bold my-3 text-contactanos">¡CONTÁCTANOS!</h1>
-            </div>
-
-            <div class="">
-                <center>
-                    <div class="card text-center col-sm-10 border-0">
-                        <img src="./assets/img/inicio/contactanos.png" class="card-img img-fluid d-block w-100" alt="" >
-                        <div class="card-img-overlay">
-                            <button class="text-white fw-bold btn btn-contacto">Quiero que me contacten <i class="bi bi-chevron-down"></i></button>
-                        </div>
-                    </div>
-                </center>
-            </div>
-            </div>-->
 
         <footer class="">
             <div class="container">
