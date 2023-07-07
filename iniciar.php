@@ -49,15 +49,15 @@
     <body>
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid mx-3">
-                    <a class="navbar-brand" href="iniciok.php"><img src="./assets/img/inicio/logo-kuali.png" class="img-fluid" width="150" height="40" alt="Logo KualiDigital"></a>
+                    <a class="navbar-brand" href="iniciar.php"><img src="./assets/img/inicio/logo-kuali.png" class="img-fluid" width="150" height="40" alt="Logo KualiDigital"></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mx-3 me-auto mb-2 mb-lg-0 navbar-fadein">
                             <li class="nav-item dropdown">
-                                <a class="nav-link fs-5 fw-bold nav-servicios dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Servicios
+                                <a class="nav-link fw-bold nav-servicios dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    SERVICIOS
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="#">Internet</a></li>
@@ -66,19 +66,19 @@
                                 </ul>
                             </li>
                             <li class="nav-item mx-1">
-                                <a class="nav-link fs-5 fw-bold nav-paquetes" href="paquetes.php">Paquetes</a>
+                                <a class="nav-link fw-bold nav-paquetes" href="paquetes.php">PAQUETES</a>
                             </li>
                             <li class="nav-item mx-1">
-                                <a class="nav-link fs-5 fw-bold nav-nosotros" href="nosotros.php">Nosotros</a>
+                                <a class="nav-link fw-bold nav-nosotros" href="nosotros.php">NOSOTROS</a>
                             </li>
                             <li class="nav-item mx-1">
-                                <a class="nav-link fs-5 fw-bold nav-cobertura" href="cobertura.php">Cobertura</a>
+                                <a class="nav-link fw-bold nav-cobertura" href="cobertura.php">COBERTURA</a>
                             </li>
                             <li class="nav-item mx-1">
-                                <a class="nav-link fs-5 fw-bold nav-productos" href="productos.php">Otros Productos</a>
+                                <a class="nav-link fw-bold nav-productos" href="productos.php">OTROS PRODUCTOS</a>
                             </li>
                             <li class="nav-item mx-1">
-                                <a class="nav-link fs-5 fw-bold nav-contacto" href="contacto.php">Contacto y Soporte</a>
+                                <a class="nav-link fw-bold nav-contacto" href="contacto.php">CONTACTO Y SOPORTE</a>
                             </li>
                         </ul>
                         <div class="flex text-center">
@@ -89,12 +89,11 @@
                                 <ul class="navbar-nav mx-3 me-auto mb-lg-0 navbar-fadein">
                                     <li class="nav-item dropdown">
                                         <a class="nav-link fw-bold nav-residencial dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            Residencial
+                                            RESIDENCIAL
                                         </a>
                                         <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">Item 1</a></li>
-                                            <li><a class="dropdown-item" href="#">Item 2</a></li>
-                                            <li><a class="dropdown-item" href="#">Item 3</a></li>
+                                            <li><a class="dropdown-item" href="#">Empresarial</a></li>
+                                            <li><a class="dropdown-item" href="#">LAN to LAN</a></li>
                                         </ul>
                                     </li>
                                 </ul>

@@ -22,30 +22,37 @@
 
 .nav-servicios{
     color: #642681;
+    font-size: 18px;
 }
 
 .nav-paquetes{
     color: #E10A17;
+    font-size: 18px;
 }
 
 .nav-nosotros{
     color: #3DA936;
+    font-size: 18px;
 }
 
 .nav-cobertura{
     color: #F19106;
+    font-size: 18px;
 }
 
 .nav-productos{
     color: #E4087E;
+    font-size: 18px;
 }
 
 .nav-contacto{
     color: #293261;
+    font-size: 18px;
 }
 
 .nav-residencial{
     color: #00A5CB;
+    font-size: 18px;
 }
 /*****************************/
 
@@ -306,3 +313,99 @@ footer{
 }
 /*******************************/
 /*---------------------------*/
+
+
+/*** Página Servicios ***/
+.text-conectate{
+    color: #652682;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.text-fibra{
+    color: #293462;
+}
+
+
+.text-streaming, .text-ciudad, .text-llevanos{
+    color: #293462;
+}
+
+
+.text-appk{
+    color: #e20917;
+}
+
+
+.img-canales{
+    width: 66%;
+}
+/*------------------------*/
+
+/*** Página Nosotros ***/
+.text-empresa{
+    color: #3eab36;
+}
+.text-telecom{
+    color: #172a4e;
+}
+
+
+.btn-nosotros{
+    background-color: #3a5b79;
+    border-radius: 25px;
+    position: relative;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    padding: 10px;
+    width: 30%;
+    margin: 0 auto;
+    font-size: 18px;
+}
+.btn-nosotros:hover{
+    background-color: #3a5b79;
+    border-radius: 25px;
+}
+
+
+.text-nuestros{
+    color: #293462;
+}
+/*------------------------*/
+
+/*** Página Cobertura ***/
+.text-cobertura{
+    color: #f2920b;
+}
+.text-redkuali{
+    color: #172a4e;
+}
+/*----------------------*/
+
+/*** Página Otros Productos ***/
+.text-otros{
+    color: #e50e7e;
+}
+/*----------------------------*/
+
+/*** Página Contacto y Soporte ***/
+.text-soporte, .text-atencion{
+    color: #293462;
+}
+.text-ayuda, .text-atclientes{
+    color: #05a8cd;
+}
+
+
+.img-soporte{
+    width: 10%;
+}
+
+
+.container-soporte{
+    margin: 0 auto;
+}
+/*-------------------------------*/
