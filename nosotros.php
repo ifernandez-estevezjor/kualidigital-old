@@ -114,15 +114,15 @@
             </div>
             <div class="container text-center my-5 mt-5">
                 <div class="row">
-                    <div class="col img-texto">
+                    <div class="col img-texto hvr-grow">
                         <img src="./assets/img/nosotros/mision.png" class="img-fluid h-100" alt="Misión">
                         <button href="" class="text-white fw-bold fst-italic mb-4 hvr-grow btn btn-nosotros" data-bs-toggle="modal" data-bs-target="#misionModal">Conócela</button>
                     </div>
-                    <div class="col img-texto">
+                    <div class="col img-texto hvr-grow">
                         <img src="./assets/img/nosotros/vision.png" class="img-fluid h-100" alt="Visión">
                         <button href="" class="text-white fw-bold fst-italic mb-4 hvr-grow btn btn-nosotros" data-bs-toggle="modal" data-bs-target="#visionModal">Conócela</button>
                     </div>
-                    <div class="col img-texto">
+                    <div class="col img-texto hvr-grow">
                         <img src="./assets/img/nosotros/valores.png" class="img-fluid h-100" alt="Valores">
                         <button href="" class="text-white fw-bold fst-italic mb-4 hvr-grow btn btn-nosotros" data-bs-toggle="modal" data-bs-target="#valoresModal">Conócelos</button>
                     </div>
@@ -150,8 +150,8 @@
             <div class="modal fade" id="misionModal" tabindex="-1" aria-labelledby="misionModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
-                        <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="misionModalLabel">NUESTRA MISIÓN</h1>
+                        <div class="modal-header bg-mision">
+                            <h1 class="modal-title text-white fs-5" id="misionModalLabel">NUESTRA MISIÓN</h1>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body text-justify">
@@ -167,8 +167,8 @@
             <div class="modal fade" id="visionModal" tabindex="-1" aria-labelledby="visionModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
-                        <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="visionModalLabel">NUESTRA VISIÓN</h1>
+                        <div class="modal-header bg-vision">
+                            <h1 class="modal-title text-white fs-5" id="visionModalLabel">NUESTRA VISIÓN</h1>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body text-justify">
@@ -184,8 +184,8 @@
             <div class="modal fade" id="valoresModal" tabindex="-1" aria-labelledby="valoresModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
-                        <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="valoresModalLabel">NUESTROS VALORES</h1>
+                        <div class="modal-header bg-valores">
+                            <h1 class="modal-title text-white fs-5" id="valoresModalLabel">NUESTROS VALORES</h1>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body text-justify">

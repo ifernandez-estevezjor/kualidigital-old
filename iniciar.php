@@ -53,15 +53,16 @@
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mx-3 me-auto mb-2 mb-lg-0 navbar-fadein">
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav mx-3 me-auto mb-2 mb-lg-0">
+                            
                             <li class="nav-item dropdown">
                                 <a class="nav-link fw-bold nav-servicios dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     SERVICIOS
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Internet</a></li>
-                                    <li><a class="dropdown-item" href="#">KualiTV</a></li>
+                                    <li><a class="dropdown-item" href="internet.php">Internet</a></li>
+                                    <li><a class="dropdown-item" href="kualitv.php">KualiTV</a></li>
                                     <li><a class="dropdown-item" href="https://www.speedtest.net/">Speed Test</a></li>
                                 </ul>
                             </li>
@@ -75,10 +76,10 @@
                                 <a class="nav-link fw-bold nav-cobertura" href="cobertura.php">COBERTURA</a>
                             </li>
                             <li class="nav-item mx-1">
-                                <a class="nav-link fw-bold nav-productos" href="productos.php">OTROS PRODUCTOS</a>
+                                <a class="nav-link fw-bold nav-productos" href="otros-productos.php">OTROS PRODUCTOS</a>
                             </li>
                             <li class="nav-item mx-1">
-                                <a class="nav-link fw-bold nav-contacto" href="contacto.php">CONTACTO Y SOPORTE</a>
+                                <a class="nav-link fw-bold nav-contacto" href="contacto-soporte.php">CONTACTO Y SOPORTE</a>
                             </li>
                         </ul>
                         <div class="flex text-center">
@@ -86,14 +87,14 @@
                                 <a class="" href=""><i class="bi bi-person fs-2 text-dark hvr-push"></i></a>
                             </div>
                             <div class="me-2">
-                                <ul class="navbar-nav mx-3 me-auto mb-lg-0 navbar-fadein">
+                                <ul class="navbar-nav mx-3 me-auto mb-lg-0">
                                     <li class="nav-item dropdown">
                                         <a class="nav-link fw-bold nav-residencial dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             RESIDENCIAL
                                         </a>
                                         <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">Empresarial</a></li>
-                                            <li><a class="dropdown-item" href="#">LAN to LAN</a></li>
+                                            <li><a class="dropdown-item" href="empresarial.php">Empresarial</a></li>
+                                            <li><a class="dropdown-item" href="lan-to-lan.php">LAN to LAN</a></li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -211,16 +212,22 @@
                         <div class="modal-dialog modal-dialog-centered">
                             <div class="modal-content">
                                 <div class="modal-body">
+                                    <small class="text-secondary">Ingresa tus datos</small>
+                                    <p class="fw-bold fs-5">Nosotros te llamamos</p>
                                     <form action="">
-                                        <div class="mb-3">
-                                            <label for="enviarInputTelefono" class="form-label">Teléfono:</label>
-                                            <input type="tel" class="form-control" id="enviarInputTelefono">
+                                    <div class="row">
+                                        <div class="col">
+                                            <input type="text" name="nombre" class="form-control border-top-0 border-start-0 border-end-0" placeholder="Nombre">
                                         </div>
+                                        <div class="col">
+                                            <input type="text" name="telefono" class="form-control border-top-0 border-start-0 border-end-0" placeholder="Teléfono">
+                                            <input type="text" name="codigo_postal" class="form-control border-top-0 border-start-0 border-end-0 my-3" placeholder="Código Postal">
+                                        </div>
+                                    </div>
                                     </form>
                                 </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><i class="bi bi-x-circle-fill"></i> Cancelar</button>
-                                    <button type="button" class="btn btn-primary"><i class="bi bi-send-fill"></i> Enviar</button>
+                                <div class="modal-footer border-0">
+                                    <button type="button" class="btn btn-primary rounded-pill">Quiero que me llamen</button>
                                 </div>
                             </div>
                         </div>
@@ -275,7 +282,7 @@
                             <div class="card">
                                 <div class="image-footer img-texto">
                                     <img src="./assets/img/inicio/kualitv_banner.png" class="img-fluid rounded w-100" alt="">
-                                    <a href="" class="text-white fw-bold fst-italic mb-3 btn btn-ir hvr-glow">Ir <i class="bi bi-chevron-down"></i></a>
+                                    <a href="servicios.php" class="text-white fw-bold fst-italic mb-3 btn btn-ir hvr-glow">Ir <i class="bi bi-chevron-down"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -309,7 +316,7 @@
                 <p class="text-center fw-bold text-contactanos">¡CONTÁCTANOS!</p>
                 <div class="img-texto">
                     <img src="./assets/img/inicio/contactanos.png" class="img-fluid d-block w-100" alt="">
-                    <a href="contacto.php" class="text-white text-decoration-underline fw-bold fst-italic mb-5 btn btn-contactar hvr-glow">Quiero que me contacten<i class="bi bi-chevron-down"></i></a>
+                    <a href="contacto-soporte.php" class="text-white text-decoration-underline fw-bold fst-italic mb-5 btn btn-contactar hvr-glow">Quiero que me contacten<i class="bi bi-chevron-down"></i></a>
                 </div>
             </div>
 
@@ -357,7 +364,7 @@
                             <div class="col-6 col-md-3 pt-3">
                                 <h5 class="text-white pb-2">ATENCIÓN PERSONALIZADA</h5>
                                 <div class="container-atencion text-center">
-                                    <a href="contacto.php" class="text-white fw-bold p-2 hvr-pulse btn btn-atencion">¡Quiero que me contacten!</a>
+                                    <a href="contacto-soporte.php" class="text-white fw-bold p-2 hvr-pulse btn btn-atencion">¡Quiero que me contacten!</a>
                                 </div>
                             </div>
                         </div>

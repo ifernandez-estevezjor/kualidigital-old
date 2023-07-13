@@ -44,7 +44,7 @@
         <link rel="stylesheet" href="./assets/css/bootstrap-icons.min.css">-->
         <!------------------->
 
-        <title>KualiDigital - Contacto y Soporte</title>
+        <title>KualiDigital - Empresarial</title>
     </head>
     <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -104,35 +104,108 @@
                 </div>
             </nav>
 
-            <div class="container my-4">
-                <h1 class="text-center display-4 fw-bold text-soporte">CONTACTO Y SOPORTE</h1>
-                <h2 class="text-center fw-bold text-ayuda">¿En qué podemos ayudarte?</h2>
+            <div class="text-center py-3 bg-header">
+                <a href="" class="text-white fw-bold fst-italic fs-3 mx-5">DEDICADO</a><a href="" class="text-white fw-bold fst-italic fs-3 mx-5">SIMÉTRICO</a><a href="" class="text-white fw-bold fst-italic fs-3 mx-5">LAN TO LAN</a><a href="contacto-soporte.php" class="text-white fw-bold hvr-pulse btn btn-emp">¡Quiero que me contacten!</a>
             </div>
-            
-            <div class="container text-center my-5">
-                <div class="row">
-                    <div class="col-sm-6 mb-3 mb-sm-0">
-                        <div class="card border-0">
-                            <div class="card-body">
-                                <h3 class="card-title fw-bold fst-italic mb-4 text-atencion">ATENCIÓN A CLIENTES</h3>
-                                <p class="card-text"><img src="./assets/img/contacto-soporte/whatsapp.png" class="img-fluid img-soporte" alt=""><a href="https://wa.me/525578784652?text=Solicito%20atención%20soporte%20técnico" class="text-decoration-none fw-bold fst-italic fs-3 text-atclientes" target="_blank"> 55 7878 4652</a></p>
-                                <p class="card-text"><img src="./assets/img/contacto-soporte/telefono.png" class="img-fluid img-soporte" alt=""><a href="tel:+527719800678" class="text-decoration-none fw-bold fst-italic fs-3 text-atclientes"> 77 1980 0678</a></p>
-                            </div>
+
+            <div class="container-carousel">
+                <div id="carouselKualiIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselKualiIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselKualiIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./assets/img/empresarial/empresarial_1.png" class="d-block w-100 img-fluid" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/img/empresarial/empresarial_2.png" class="d-block w-100 img-fluid" alt="...">
                         </div>
                     </div>
-                    <div class="col-sm-6">
-                        <div class="card border-0">
-                            <div class="card-body">
-                            <h3 class="card-title fw-bold fst-italic mb-4 text-atencion">SOPORTE</h3>
-                                <p class="card-text"><img src="./assets/img/contacto-soporte/whatsapp.png" class="img-fluid img-soporte" alt=""><a href="https://wa.me/525578784652?text=Solicito%20atención%20soporte%20técnico" class="text-decoration-none fw-bold fst-italic fs-3 text-atclientes" target="_blank"> 55 7878 4652</a></p>
-                                <p class="card-text"><img src="./assets/img/contacto-soporte/telefono.png" class="img-fluid img-soporte" alt=""><a href="tel:+527719800678" class="text-decoration-none fw-bold fst-italic fs-3 text-atclientes"> 77 1980 0678</a></p>
-                            </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselKualiIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselKualiIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <!--<div class="bg-header">
+                <div class="container-header text-center">
+                    <span class="text-white fw-bold fst-italic fs-3 mx-5">DEDICADO</span><span class="text-white fw-bold fst-italic fs-3 mx-5">SIMÉTRICO</span><span class="text-white fw-bold fst-italic fs-3 mx-5">LAN TO LAN</span><a href="contacto-soporte.php" class="text-white fw-bold p-2 hvr-pulse btn btn-emp">¡Quiero que me contacten!</a>
+                </div>
+            </div>-->
+
+            <!--<div class="container my-5">
+                <h1 class="text-center display-5 fw-bold text-empresa">Somos una empresa 100% Hidalguense</h1>
+                <h2 class="text-center fst-italic fw-bold text-telecom">en expansión dentro del sector de telecomunicaciones</h2>
+            </div>-->
+            <div class="text-center bg-header">
+                <h1 class="text-white fw-bold py-3">Una solución para cada necesidad</h1>
+                <div class="container pb-4">
+                    <img src="./assets/img/empresarial/banner_1.png" class="w-100" alt="">
+                </div>
+            </div>
+
+            <!-- Modal Mision -->
+            <div class="modal fade" id="misionModal" tabindex="-1" aria-labelledby="misionModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header bg-mision">
+                            <h1 class="modal-title text-white fs-5" id="misionModalLabel">NUESTRA MISIÓN</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-justify">
+                        Ofrecer soluciones ágiles e innovadoras en servicio de internet de fibra óptica y TV
+                        por streaming a través de equipos humanos altamente capacitados.
                         </div>
                     </div>
                 </div>
             </div>
+            <!------------------->
 
-        <footer class="">
+            <!-- Modal Vision -->
+            <div class="modal fade" id="visionModal" tabindex="-1" aria-labelledby="visionModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header bg-vision">
+                            <h1 class="modal-title text-white fs-5" id="visionModalLabel">NUESTRA VISIÓN</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-justify">
+                        Ser el proveedor número 1 a nivel nacional de internet de fibra óptica para
+                        complejos residenciales y empresariales.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!------------------->
+
+            <!-- Modal Valores -->
+            <div class="modal fade" id="valoresModal" tabindex="-1" aria-labelledby="valoresModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header bg-valores">
+                            <h1 class="modal-title text-white fs-5" id="valoresModalLabel">NUESTROS VALORES</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-justify">
+                        <ul class="list-unstyled">
+                            <li><i class="bi bi-check"></i> Trabajo en equipo</li>
+                            <li><i class="bi bi-check"></i> Crecimiento / Desarrollo personal y profesional</li>
+                            <li><i class="bi bi-check"></i> Excelencia</li>
+                            <li><i class="bi bi-check"></i> Responsabilidad</li>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!------------------->
+
+        <footer class="" style="background-color: #000000;">
             <div class="container">
                 <!-- Row START -->
                 <div class="row">
@@ -191,7 +264,7 @@
             </div>
         </footer>
 
-        <a href="https://wa.me/525578784652?text=Me%20gustaría%20saber%20mas%20informacion%20sobre%20sus%20servicios" class="whatsapp" target="_blank"><i class="bi bi-whatsapp fs-1"></i></a>
+        <a href="https://wa.me/525578784652?text=Me%20gustaría%20saber%20mas%informacion%20sobre%20sus%20servicios" class="whatsapp" target="_blank"><i class="bi bi-whatsapp fs-1"></i></a>
 
         <script src="./assets/js/bootstrap.js"></script>
         <script src="./assets/js/bootstrap.bundle.js"></script>
