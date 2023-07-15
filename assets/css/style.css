@@ -56,6 +56,33 @@
 }
 /*****************************/
 
+/*** Página Servicios ***/
+.btn-descargar{
+    background-color: #3a5b79;
+    border: 5px outset #3a5b79;
+    border-radius: 25px;
+    position: relative;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    padding: 5px;
+    width: 18%;
+    margin: 0 auto;
+    font-size: 18px;
+}
+.btn-descargar:hover{
+    background-color: #3a5b79;
+    border: 5px outset #3a5b79;
+    border-radius: 25px;
+}
+
+.img-chica, .img-chico{
+    height: 470px;
+}
+/*---------------------------*/
+
 /*** Container gratis ***/
 .img-kuali{
     height: 60px;
@@ -447,6 +474,18 @@ footer{
 
 .container-soporte{
     margin: 0 auto;
+}
+
+.container-contacto{
+    background-color: #293462;
+}
+
+.form-label{
+    color: #293462;
+}
+
+.required-input{
+    color: red;
 }
 /*-------------------------------*/
 

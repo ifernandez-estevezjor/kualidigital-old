@@ -105,6 +105,7 @@
             </nav>
 
             <div class="container py-4">
+                <a name="prueba-ancla"></a>
                 <h1 class="text-center display-5 fw-bold text-conectate">Conéctate con todo  lo que te gusta</h1>
                 <h2 class="text-center fst-italic fw-bold text-fibra">Todo lo que realices sin interrupciones con internet de fibra óptica</h2>
             </div>
@@ -146,9 +147,10 @@
                 <img src="./assets/img/servicios/banner_2.png" class="img-fluid" alt="Banner">
             </div>
 
-            <div class="container py-5">
+            <div class="container py-5 img-texto">
                 <h1 class="text-center fw-bold display-3 text-llevanos">¡LLÉVANOS A DONDE QUIERAS!</h1>
                 <img src="./assets/img/servicios/banner_3.png" class="img-fluid" alt="Banner">
+                <a href="contacto-soporte.php" class="text-white text-decoration-none fw-bold fst-italic mb-5 btn btn-descargar hvr-glow">Descargar App</a>
             </div>
 
         <footer class="">

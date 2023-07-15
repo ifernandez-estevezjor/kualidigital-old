@@ -106,30 +106,68 @@
 
             <div class="container my-4">
                 <h1 class="text-center display-4 fw-bold text-soporte">CONTACTO Y SOPORTE</h1>
-                <h2 class="text-center fw-bold text-ayuda">¿En qué podemos ayudarte?</h2>
             </div>
             
             <div class="container text-center my-5">
                 <div class="row">
-                    <div class="col-sm-6 mb-3 mb-sm-0">
-                        <div class="card border-0">
-                            <div class="card-body">
-                                <h3 class="card-title fw-bold fst-italic mb-4 text-atencion">ATENCIÓN A CLIENTES</h3>
-                                <p class="card-text"><img src="./assets/img/contacto-soporte/whatsapp.png" class="img-fluid img-soporte" alt=""><a href="https://wa.me/525578784652?text=Solicito%20atención%20soporte%20técnico" class="text-decoration-none fw-bold fst-italic fs-3 text-atclientes" target="_blank"> 55 7878 4652</a></p>
-                                <p class="card-text"><img src="./assets/img/contacto-soporte/telefono.png" class="img-fluid img-soporte" alt=""><a href="tel:+527719800678" class="text-decoration-none fw-bold fst-italic fs-3 text-atclientes"> 77 1980 0678</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="card border-0">
-                            <div class="card-body">
-                            <h3 class="card-title fw-bold fst-italic mb-4 text-atencion">SOPORTE</h3>
-                                <p class="card-text"><img src="./assets/img/contacto-soporte/whatsapp.png" class="img-fluid img-soporte" alt=""><a href="https://wa.me/525578784652?text=Solicito%20atención%20soporte%20técnico" class="text-decoration-none fw-bold fst-italic fs-3 text-atclientes" target="_blank"> 55 7878 4652</a></p>
-                                <p class="card-text"><img src="./assets/img/contacto-soporte/telefono.png" class="img-fluid img-soporte" alt=""><a href="tel:+527719800678" class="text-decoration-none fw-bold fst-italic fs-3 text-atclientes"> 77 1980 0678</a></p>
-                            </div>
-                        </div>
-                    </div>
+                    <img src="./assets/img/contacto-soporte/banner_contacto.gif" alt="">
                 </div>
+            </div>
+
+            <div class="container-contacto">
+                <h1 class="text-white text-center fw-bold">MÁNDANOS TUS COMENTARIOS</h1>
+            </div>
+            <div class="container my-3">
+            <form class="row g-3">
+                <div class="col-md-4">
+                    <label for="inputNombre" class="form-label fw-bold">Nombre<span class="required-input">*</span></label>
+                    <input type="text" class="form-control" name="nombre" aria-label="Nombre">
+                </div>
+                <div class="col-md-4">
+                    <label for="inputNumContrato" class="form-label fw-bold">Número de Contrato<span class="required-input">*</span></label>
+                    <input type="text" class="form-control" name="num_contrato" aria-label="No Contrato">
+                </div>
+                <div class="col-md-4">
+                    <label for="inputCodigoPostal" class="form-label fw-bold">Código Postal<span class="required-input">*</span></label>
+                    <input type="text" class="form-control" name="codigo_postal" aria-label="Código Postal">
+                </div>
+                <div class="col-4">
+                    <label for="inputCodigoPostal" class="form-label fw-bold">Código Postal<span class="required-input">*</span></label>
+                    <input type="text" class="form-control" name="codigo_postal" aria-label="Código Postal">
+                </div>
+                <div class="col-4">
+                    
+                </div>
+                <div class="col-4">
+                    
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary fw-bold">Enviar</button>
+                </div>
+            </form>
+
+                <!--<form action="">
+                    <div class="row justify-content-center">
+                        <div class="col-md-3">
+                            <label for="inputNombre" class="form-label fw-bold">Nombre<span class="required-input">*</span></label>
+                            <input type="text" class="form-control" name="nombre" aria-label="Nombre">
+                        </div>
+                        <div class="col-md-3">
+                            <label for="inputNumContrato" class="form-label fw-bold">Número de Contrato<span class="required-input">*</span></label>
+                            <input type="text" class="form-control" name="num_contrato" aria-label="No Contrato">
+                        </div>
+                        <div class="col-md-3">
+                            <label for="inputCodigoPostal" class="form-label fw-bold">Código Postal<span class="required-input">*</span></label>
+                            <input type="text" class="form-control" name="codigo_postal" aria-label="Código Postal">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <label for="inputCodigoPostal" class="form-label fw-bold">Código Postal<span class="required-input">*</span></label>
+                            <input type="text" class="form-control" name="codigo_postal" aria-label="Código Postal">
+                        </div>
+                    </div>
+                </form>-->
             </div>
 
         <footer class="">

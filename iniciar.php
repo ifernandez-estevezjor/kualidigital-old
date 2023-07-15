@@ -47,7 +47,7 @@
         <title>KualiDigital - Somos tu Internet</title>
     </head>
     <body>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm rounded">
                 <div class="container-fluid mx-3">
                     <a class="navbar-brand" href="iniciar.php"><img src="./assets/img/inicio/logo-kuali.png" class="img-fluid" width="150" height="40" alt="Logo KualiDigital"></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -61,7 +61,7 @@
                                     SERVICIOS
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="internet.php">Internet</a></li>
+                                    <li><a class="dropdown-item" href="/servicios.php/#prueba-ancla">Internet</a></li>
                                     <li><a class="dropdown-item" href="kualitv.php">KualiTV</a></li>
                                     <li><a class="dropdown-item" href="https://www.speedtest.net/">Speed Test</a></li>
                                 </ul>
