@@ -44,6 +44,11 @@
         <link rel="stylesheet" href="./assets/css/bootstrap-icons.min.css">-->
         <!------------------->
 
+        <!-- Scripts Mapa -->
+        <script src="./assets/js/mapdata.js"></script>
+        <script src="./assets/js/countrymap.js"></script>
+        <!------------------>
+
         <title>KualiDigital - Cobertura</title>
     </head>
     <body>
@@ -108,18 +113,12 @@
                 <h1 class="text-center display-4 fw-bold text-cobertura">Zona de Cobertura</h1>
                 <h2 class="text-center fst-italic fw-bold text-redkuali">La red de KualiDigital se amplía, ofreciendo un servicio de vanguardia</h2>
             </div>
-            <div class="container text-center my-5 mt-5">
-                <div class="row">
-                    <div class="col hvr-grow">
-                        <img src="./assets/img/cobertura/hidalgo.jpg" class="img-fluid h-100 rounded" alt="Hidalgo">
-                    </div>
-                    <div class="col hvr-grow">
-                        <img src="./assets/img/cobertura/qroo.jpg" class="img-fluid h-100 rounded" alt="Quintana Roo">
-                    </div>
-                    <div class="col hvr-grow">
-                        <img src="./assets/img/cobertura/morelos.jpg" class="img-fluid h-100 rounded" alt="Morelos">
-                    </div>
-                </div>
+
+            <center>
+            <div id="map"></div>
+            </center>
+
+            <div class="container text-center my-5">
                 <h2 class="text-secondary text-center fst-italic my-3">Con lo último en tecnología para lograr la mayor velocidad de navegación <br>
                 mediante nuestra Red de Fibra Óptica y cobertura Wireless.</h2>
                 <h2 class="text-secondary text-center fst-italic">¡Muy pronto a tu alcance!</h2>

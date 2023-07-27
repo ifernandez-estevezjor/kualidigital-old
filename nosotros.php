@@ -104,33 +104,21 @@
                 </div>
             </nav>
 
+            <div class="container my-3">
+                <h1 class="text-center display-5 fw-bold text-empresa">Somos una empresa 100% Hidalguense</h1>
+                <h2 class="text-center fst-italic fw-bold text-telecom">en expansión dentro del sector de telecomunicaciones</h2>
+            </div>
+            
+            <div class="container">
+                <video src="./assets/video/video-nosotros.wmv" muted autoplay loop></video>
+            </div>
+
             <div class="">
                 <video src="./assets/video/video_intro.mp4" class="d-block w-100" muted autoplay loop></video>
             </div>
 
-            <div class="container my-5">
-                <h1 class="text-center display-5 fw-bold text-empresa">Somos una empresa 100% Hidalguense</h1>
-                <h2 class="text-center fst-italic fw-bold text-telecom">en expansión dentro del sector de telecomunicaciones</h2>
-            </div>
-            <div class="container text-center my-5 mt-5">
-                <div class="row">
-                    <div class="col img-texto hvr-grow">
-                        <img src="./assets/img/nosotros/mision.png" class="img-fluid h-100" alt="Misión">
-                        <button href="" class="text-white fw-bold fst-italic mb-4 hvr-grow btn btn-nosotros" data-bs-toggle="modal" data-bs-target="#misionModal">Conócela</button>
-                    </div>
-                    <div class="col img-texto hvr-grow">
-                        <img src="./assets/img/nosotros/vision.png" class="img-fluid h-100" alt="Visión">
-                        <button href="" class="text-white fw-bold fst-italic mb-4 hvr-grow btn btn-nosotros" data-bs-toggle="modal" data-bs-target="#visionModal">Conócela</button>
-                    </div>
-                    <div class="col img-texto hvr-grow">
-                        <img src="./assets/img/nosotros/valores.png" class="img-fluid h-100" alt="Valores">
-                        <button href="" class="text-white fw-bold fst-italic mb-4 hvr-grow btn btn-nosotros" data-bs-toggle="modal" data-bs-target="#valoresModal">Conócelos</button>
-                    </div>
-                </div>
-            </div>
-
             <div class="container">
-                <h1 class="text-center fw-bold display-5 text-nuestros">Nuestros clientes nos respaldan</h1>
+                <h1 class="text-center fw-bold display-5 text-nuestros">Lo que opinan nuestros clientes...</h1>
             </div>
             <div id="carouselExampleSlidesOnly" class="carousel slide my-5" data-bs-ride="carousel">
                 <div class="carousel-inner">

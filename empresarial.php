@@ -105,7 +105,7 @@
             </nav>
 
             <div class="text-center py-3 bg-header">
-                <a href="" class="text-white fw-bold fst-italic fs-3 mx-5">DEDICADO</a><a href="" class="text-white fw-bold fst-italic fs-3 mx-5">SIMÉTRICO</a><a href="" class="text-white fw-bold fst-italic fs-3 mx-5">LAN TO LAN</a><a href="contacto-soporte.php" class="text-white fw-bold hvr-pulse btn btn-emp">¡Quiero que me contacten!</a>
+                <a href="contacto.php" class="text-white fw-bold p-2 hvr-pulse btn btn-atencion">¡Quiero que me contacten!</a>
             </div>
 
             <div class="container-carousel">
@@ -115,6 +115,28 @@
                         <button type="button" data-bs-target="#carouselKualiIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                     </div>
                     <div class="carousel-inner">
+                        <div class="row justify-content-end mx-3 my-2 form-empresarial">
+                            <div class="col-3 bg-white rounded">
+                                <img src="./assets/img/empresarial/logo-kuali-empresarial.png" class="img-fluid w-75 mx-auto d-block my-3" alt="">
+                                <form class="my-3 mx-3" action="">
+                                    <div class="col">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control fst-italic" id="InputNombre" placeholder="Nombre Completo">
+                                        </div>
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control fst-italic" id="InputTelefono" placeholder="Teléfono">
+                                        </div>
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control fst-italic" id="InputCodigoPostal" placeholder="Código Postal">
+                                        </div>
+                                        <div class="mb-3">
+                                            <input type="email" class="form-control fst-italic" id="InputEmail" placeholder="Email">
+                                        </div>
+                                    </div>
+                                    <center><button type="submit" class="text-white fw-bold fst-italic hvr-glow btn btn-contacto-emp">Quiero que me contacten</button></center>
+                                </form>
+                            </div>
+                        </div>
                         <div class="carousel-item active">
                             <img src="./assets/img/empresarial/empresarial_1.png" class="d-block w-100 img-fluid" alt="...">
                         </div>
@@ -133,34 +155,38 @@
                 </div>
             </div>
 
-            <!--<div class="bg-header">
-                <div class="container-header text-center">
-                    <span class="text-white fw-bold fst-italic fs-3 mx-5">DEDICADO</span><span class="text-white fw-bold fst-italic fs-3 mx-5">SIMÉTRICO</span><span class="text-white fw-bold fst-italic fs-3 mx-5">LAN TO LAN</span><a href="contacto-soporte.php" class="text-white fw-bold p-2 hvr-pulse btn btn-emp">¡Quiero que me contacten!</a>
-                </div>
-            </div>-->
-
-            <!--<div class="container my-5">
-                <h1 class="text-center display-5 fw-bold text-empresa">Somos una empresa 100% Hidalguense</h1>
-                <h2 class="text-center fst-italic fw-bold text-telecom">en expansión dentro del sector de telecomunicaciones</h2>
-            </div>-->
             <div class="text-center bg-header">
                 <h1 class="text-white fw-bold py-3">Una solución para cada necesidad</h1>
-                <div class="container pb-4">
-                    <img src="./assets/img/empresarial/banner_1.png" class="w-100" alt="">
+                <div class="w-100" style="background-image: url(./assets/img/empresarial/background-empresarial.jpg);background-size: cover;">
+                    <div class="row py-4">
+                        <div class="col py-4" data-bs-toggle="modal" data-bs-target="#empresarialModal" style="cursor:pointer">
+                            <div class="container-img-paquetes">
+                                <img src="./assets/img/empresarial/internet_empresarial.png" class="img-fluid hvr-grow img-empresarial" alt="Internet Empresarial">
+                            </div>
+                        </div>
+                        <div class="col py-4" data-bs-toggle="modal" data-bs-target="#dedicadoModal" style="cursor:pointer">
+                            <div class="container-img-paquetes">
+                                <img src="./assets/img/empresarial/internet_dedicado.png" class="img-fluid hvr-grow img-empresarial" alt="Internet Dedicado">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <!-- Modal Mision -->
-            <div class="modal fade" id="misionModal" tabindex="-1" aria-labelledby="misionModalLabel" aria-hidden="true">
+            <div class="modal fade" id="empresarialModal" tabindex="-1" aria-labelledby="empresarialModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                         <div class="modal-header bg-mision">
-                            <h1 class="modal-title text-white fs-5" id="misionModalLabel">NUESTRA MISIÓN</h1>
+                            <h1 class="modal-title text-white fs-5" id="empresarialModalLabel">INTERNET EMPRESARIAL</h1>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body text-justify">
-                        Ofrecer soluciones ágiles e innovadoras en servicio de internet de fibra óptica y TV
-                        por streaming a través de equipos humanos altamente capacitados.
+                            <ul class="list-unstyled">
+                                <li><i class="bi bi-check-lg"></i> Misma velocidad para enviar, subir y descargar.</li>
+                                <li><i class="bi bi-check-lg"></i> Permite la realización de varias acciones de manera simultánea.</li>
+                                <li><i class="bi bi-check-lg"></i> Conexión estable.</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -168,16 +194,20 @@
             <!------------------->
 
             <!-- Modal Vision -->
-            <div class="modal fade" id="visionModal" tabindex="-1" aria-labelledby="visionModalLabel" aria-hidden="true">
+            <div class="modal fade" id="dedicadoModal" tabindex="-1" aria-labelledby="dedicadoModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                         <div class="modal-header bg-vision">
-                            <h1 class="modal-title text-white fs-5" id="visionModalLabel">NUESTRA VISIÓN</h1>
+                            <h1 class="modal-title text-white fs-5" id="dedicadoModalLabel">INTERNET DEDICADO</h1>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body text-justify">
-                        Ser el proveedor número 1 a nivel nacional de internet de fibra óptica para
-                        complejos residenciales y empresariales.
+                            <ul class="list-unstyled">
+                                <li><i class="bi bi-check-lg"></i> 100% fibra óptica.</li>
+                                <li><i class="bi bi-check-lg"></i> Uso exclusivo del ancho de banda.</li>
+                                <li><i class="bi bi-check-lg"></i> Conexión estable.</li>
+                                <li><i class="bi bi-check-lg"></i> Misma velocidad para enviar, subir y descargar.</li>
+                            </ul>
                         </div>
                     </div>
                 </div>

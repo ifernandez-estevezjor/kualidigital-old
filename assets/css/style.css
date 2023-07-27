@@ -1,6 +1,9 @@
 /*------ Página Inicio ------*/
-/*body{
-    font-family: 'Courier New', Courier, monospace;
+/*@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&family=Roboto:wght@100&display=swap');
+
+body{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }*/
 /*** Navbar ***/
 /*.dropdown:hover .dropdown-menu {
@@ -456,6 +459,28 @@ footer{
 .text-otros{
     color: #e50e7e;
 }
+
+#producto{
+    position: relative;
+}
+.rokuexpress{
+    position:absolute;
+    top:0px;
+    left:10px;
+    border:none;
+}
+.vectormax{
+    position:absolute;
+    top:0px;
+    left:70px;
+    border:none;
+}
+.decom4{
+    position:absolute;
+    top:0px;
+    left:150px;
+    border:none;
+}
 /*----------------------------*/
 
 /*** Página Contacto y Soporte ***/
@@ -487,6 +512,23 @@ footer{
 .required-input{
     color: red;
 }
+
+.text-mensaje{
+    color: #e50e7c;
+}
+
+.btn-form{
+    background: rgb(34,61,139);
+    background: linear-gradient(90deg, rgba(34,61,139,1) 0%, rgba(55,147,188,1) 100%);
+    color: #fff;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.btn-form:hover{
+    background-color: lightgray;
+    color: #fff;
+}
 /*-------------------------------*/
 
 /*** Página Empresarial ***/
@@ -512,7 +554,21 @@ footer{
     background-color: #3a5b79;
     border-radius: 25px;
 }
-/*------------------------*/
+
+.btn-contacto-emp{
+    background: rgb(106,121,139);
+    background: linear-gradient(90deg, rgba(106,121,139,1) 0%, rgba(147,170,188,1) 100%);
+    border: 5px outset rgb(106,121,139);
+    border-radius: 25px;
+    font-size: 18px;
+}
+.btn-contacto-emp:hover{
+    background: rgb(106,121,139);
+    background: linear-gradient(90deg, rgba(106,121,139,1) 0%, rgba(147,170,188,1) 100%);
+    border: 5px outset rgb(106,121,139);
+    border-radius: 25px;
+    font-size: 18px;
+}
 
 .biselado {
 	background: #2323ff;  /* Fondo, debe ser más claro que el borde */
@@ -521,3 +577,18 @@ footer{
 	text-align: center;  /* Alineación del texto */
 	text-shadow: -1px -1px rgba(0,0,0,.2);
 }
+
+.form-empresarial{
+    position: absolute;
+    z-index: 1;
+}
+
+.container-form-emp{
+    background-color: transparent;
+}
+
+.img-empresarial{
+    width: 350px;
+    height: 220px;
+}
+/*------------------------*/

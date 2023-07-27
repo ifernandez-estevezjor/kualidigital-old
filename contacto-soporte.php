@@ -118,31 +118,38 @@
                 <h1 class="text-white text-center fw-bold">MÁNDANOS TUS COMENTARIOS</h1>
             </div>
             <div class="container my-3">
-            <form class="row g-3">
-                <div class="col-md-4">
-                    <label for="inputNombre" class="form-label fw-bold">Nombre<span class="required-input">*</span></label>
-                    <input type="text" class="form-control" name="nombre" aria-label="Nombre">
+            <form class="g-3">
+                <div class="row justify-content-center">
+                    <div class="col-md-3">
+                        <label for="inputNombre" class="form-label fw-bold">Nombre<span class="required-input">*</span></label>
+                        <input type="text" class="form-control" name="nombre" aria-label="Nombre" required>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="inputNumContrato" class="form-label fw-bold">Número de Contrato<span class="required-input">*</span></label>
+                        <input type="text" class="form-control" name="num_contrato" aria-label="No Contrato" required>
+                    </div>
                 </div>
-                <div class="col-md-4">
-                    <label for="inputNumContrato" class="form-label fw-bold">Número de Contrato<span class="required-input">*</span></label>
-                    <input type="text" class="form-control" name="num_contrato" aria-label="No Contrato">
+                <div class="row justify-content-center">
+                    <div class="col-md-3">
+                        <label for="inputCodigoPostal" class="form-label fw-bold">Código Postal<span class="required-input">*</span></label>
+                        <input type="text" class="form-control" name="codigo_postal" aria-label="Código Postal" required>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="inputCodigoPostal" class="form-label fw-bold">Teléfono de Contacto<span class="required-input">*</span></label>
+                        <input type="text" class="form-control" name="codigo_postal" aria-label="Código Postal" required>
+                    </div>
                 </div>
-                <div class="col-md-4">
-                    <label for="inputCodigoPostal" class="form-label fw-bold">Código Postal<span class="required-input">*</span></label>
-                    <input type="text" class="form-control" name="codigo_postal" aria-label="Código Postal">
+                <div class="row justify-content-center my-3">
+                    <div class="col-md-6">
+                        <label for="inputMensaje" class="form-label fw-bold"><span class="text-mensaje">¿En qué podemos ayudarte?</span><span class="required-input">*</span></label>
+                        <textarea class="form-control" name="mensaje" id="" cols="20" rows="5" required></textarea>
+                        <div id="mensajeHelp" class="form-text">Sólo se permiten 500 caracteres letras, números, puntos y comas.</div>
+                    </div>
                 </div>
-                <div class="col-4">
-                    <label for="inputCodigoPostal" class="form-label fw-bold">Código Postal<span class="required-input">*</span></label>
-                    <input type="text" class="form-control" name="codigo_postal" aria-label="Código Postal">
-                </div>
-                <div class="col-4">
-                    
-                </div>
-                <div class="col-4">
-                    
-                </div>
-                <div class="col-12">
-                    <button type="submit" class="btn btn-primary fw-bold">Enviar</button>
+                <div class="row text-center my-3">
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-form fw-bold">Enviar</button>
+                    </div>
                 </div>
             </form>
 

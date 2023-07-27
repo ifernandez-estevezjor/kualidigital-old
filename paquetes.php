@@ -221,6 +221,32 @@
                 <h5 class="text-secondary text-center fst-italic my-3">*SIN PLAZOS FORZOSOS</h5>
             </div>
 
+            <!-- Modal -->
+            <div class="modal fade" id="enviarModal" tabindex="-1" aria-labelledby="enviarModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <small class="text-secondary">Ingresa tus datos</small>
+                            <p class="fw-bold fs-5">Nosotros te llamamos</p>
+                            <form action="">
+                            <div class="row">
+                                <div class="col">
+                                    <input type="text" name="nombre" class="form-control border-top-0 border-start-0 border-end-0" placeholder="Nombre">
+                                </div>
+                                <div class="col">
+                                    <input type="text" name="telefono" class="form-control border-top-0 border-start-0 border-end-0" placeholder="Teléfono">
+                                    <input type="text" name="codigo_postal" class="form-control border-top-0 border-start-0 border-end-0 my-3" placeholder="Código Postal">
+                                </div>
+                            </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer border-0">
+                            <button type="button" class="btn btn-primary rounded-pill">Quiero que me llamen</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="container-kuali text-center">
                 <span class="fw-bold text-cliente">¿Por qué <img src="./assets/img/inicio/logo-kuali.png" class="img-fluid mb-3 img-kuali" alt="Logo KualiDigital">?</span>
             </div>
@@ -228,7 +254,7 @@
                 <div class="row py-4 px-4">
                     <div class="col py-4" data-bs-toggle="modal" data-bs-target="#kualitvModal" style="cursor:pointer">
                         <div class="container-img-paquetes">
-                            <img src="./assets/img/paquetes/kualitv-icon.png" class="img-fluid img-kuali-paq" alt="">
+                            <img src="./assets/img/paquetes/kualitv-icon.png" class="img-fluid hvr-grow img-kuali-paq" alt="">
                         </div>
                         <div class="container-text-paquetes mt-3">
                             <span class="text-white fs-5 fw-bold fst-italic">Hasta 4 dispositivos al mismo tiempo</span>
@@ -236,7 +262,7 @@
                     </div>
                     <div class="col py-4" data-bs-toggle="modal" data-bs-target="#internetModal" style="cursor:pointer">
                         <div class="container-img-paquetes">
-                            <img src="./assets/img/paquetes/internet-icon.png" class="img-fluid img-kuali-paq" width="250" alt="">
+                            <img src="./assets/img/paquetes/internet-icon.png" class="img-fluid hvr-grow img-kuali-paq" width="250" alt="">
                         </div>
                         <div class="container-text-paquetes mt-3">
                             <span class="text-white fs-5 fw-bold fst-italic">Internet 100% de fibra óptica</span>
@@ -244,7 +270,7 @@
                     </div>
                     <div class="col py-4" data-bs-toggle="modal" data-bs-target="#sinplazosModal" style="cursor:pointer">
                         <div class="container-img-paquetes">
-                            <img src="./assets/img/paquetes/sinplazos-icon.png" class="img-fluid img-kuali-cont" width="250" alt="">
+                            <img src="./assets/img/paquetes/sinplazos-icon.png" class="img-fluid hvr-grow img-kuali-cont" width="250" alt="">
                         </div>
                         <div class="container-text-paquetes mt-3">
                             <span class="text-white fs-5 fw-bold fst-italic">Sin plazos forzosos</span>
@@ -252,7 +278,7 @@
                     </div>
                     <div class="col py-4" data-bs-toggle="modal" data-bs-target="#instalacionModal" style="cursor:pointer">
                         <div class="container-img-paquetes">
-                            <img src="./assets/img/paquetes/instalacion-icon.png" class="img-fluid img-kuali-paq" width="250" alt="">
+                            <img src="./assets/img/paquetes/instalacion-icon.png" class="img-fluid hvr-grow img-kuali-paq" width="250" alt="">
                         </div>
                         <div class="container-text-paquetes mt-3">
                             <span class="text-white fs-5 fw-bold fst-italic">Instalación GRATIS</span>
@@ -260,7 +286,7 @@
                     </div>
                     <div class="col py-4" data-bs-toggle="modal" data-bs-target="#atencionModal" style="cursor:pointer">
                         <div class="container-img-paquetes">
-                            <img src="./assets/img/paquetes/atencion-icon.png" class="img-fluid img-kuali-cont" width="250" alt="">
+                            <img src="./assets/img/paquetes/atencion-icon.png" class="img-fluid hvr-grow img-kuali-cont" width="250" alt="">
                         </div>
                         <div class="container-text-paquetes mt-3">
                             <span class="text-white fs-5 fw-bold fst-italic">Atención personalizada</span>
@@ -269,15 +295,18 @@
                 </div>
             </div>
 
-            <!-- Modal -->
+            <!-- Modal KualiTV -->
             <div class="modal fade" id="kualitvModal" tabindex="-1" aria-labelledby="kualitvModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                         <div class="modal-header container-kualipaq">
-                            <h1 class="modal-title fs-5 text-white" id="kualitvModalLabel"><img src="./assets/img/paquetes/kualitv-icon.png" width="50" alt=""> KUALITV</h1>
+                            <h1 class="modal-title fs-5 text-white" id="kualitvModalLabel"><img src="./assets/img/paquetes/kualitv-icon.png" width="50" height="50" alt=""> KUALITV</h1>
                         </div>
                         <div class="modal-body">
-                            ...
+                            <h5 class="fst-italic">HASTA 4 DISPOSITIVOS AL MISMO TIEMPO</h5>
+                            <p>Disfruta de la programación de KualiTV hasta en 4 dispositivos al mismo tiempo
+                                (siempre que estén conectados a un red de Internet), sin cobro adicional.
+                            </p>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
@@ -285,6 +314,83 @@
                     </div>
                 </div>
             </div>
+            <!-- End Modal KualiTV -->
+
+            <!-- Modal Internet -->
+            <div class="modal fade" id="internetModal" tabindex="-1" aria-labelledby="internetModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header container-kualipaq">
+                            <h1 class="modal-title fs-5 text-white" id="internetModalLabel"><img src="./assets/img/paquetes/internet-icon.png" class="img-fluid" width="40" height="40" alt="Internet"> INTERNET 100% DE FIBRA ÓPTICA</h1>
+                        </div>
+                        <div class="modal-body">
+                            <h5 class="fst-italic">INTERNET 100% FIBRA ÓPTICA</h5>
+                            <p>Servicio de Internet con la mayor potencia y velocidad de México gracias a nuestra red 100% de fibra óptica.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Modal Internet -->
+
+            <!-- Modal Plazos -->
+            <div class="modal fade" id="sinplazosModal" tabindex="-1" aria-labelledby="sinplazosModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header container-kualipaq">
+                            <h1 class="modal-title fs-5 text-white" id="sinplazosModalLabel"><img src="./assets/img/paquetes/sinplazos-icon.png" class="img-fluid" width="40" height="40" alt="Plazos"> SIN PLAZOS FORZOSOS</h1>
+                        </div>
+                        <div class="modal-body">
+                            <h5 class="fst-italic">SIN PLAZOS FORZOSOS</h5>
+                            <p>Libertad para permanecer con el servicio durante el tiempo que consideren oportuno.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Modal Plazos -->
+
+            <!-- Modal Instalación -->
+            <div class="modal fade" id="instalacionModal" tabindex="-1" aria-labelledby="instalacionModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header container-kualipaq">
+                            <h1 class="modal-title fs-5 text-white" id="instalacionModalLabel"><img src="./assets/img/paquetes/instalacion-icon.png" class="img-fluid" width="40" height="40" alt="Instalacion"> INSTALACIÓN GRATIS</h1>
+                        </div>
+                        <div class="modal-body">
+                            <h5 class="fst-italic">INSTALACIÓN GRATIS</h5>
+                            <p>Sin costo de instalación para nuestro servicio de Internet.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Modal Instalación -->
+
+            <!-- Modal Atención -->
+            <div class="modal fade" id="atencionModal" tabindex="-1" aria-labelledby="atencionModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header container-kualipaq">
+                            <h1 class="modal-title fs-5 text-white" id="atencionModalLabel"><img src="./assets/img/paquetes/atencion-icon.png" class="img-fluid" width="40" height="40" alt="Atención"> ATENCIÓN PERSONALIZADA</h1>
+                        </div>
+                        <div class="modal-body">
+                            <h5 class="fst-italic">ATENCIÓN PERSONALIZADA</h5>
+                            <p>Atención a todos nuestros usuarios de manera personalizada a través de una línea telefónica o WhatsApp.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Modal Atención -->
 
         <footer class="">
             <div class="container">

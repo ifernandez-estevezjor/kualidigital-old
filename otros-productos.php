@@ -110,14 +110,17 @@
             </div>
             <div class="container text-center my-5 mt-5">
                 <div class="row">
-                    <div class="col">
-                        <img src="./assets/img/otros-productos/producto_1.png" class="img-fluid h-100 rounded" alt="Producto 1">
+                    <div class="col" id="producto">
+                        <img src="./assets/img/otros-productos/producto_1.png" class="img-fluid h-100 rounded" alt="Rokuexpress" style="z-index: -999;">
+                        <img src="./assets/img/otros-productos/rokuexpress.png" class="img-fluid h-100 rounded hvr-float rokuexpress" alt="Rokuexpress">
                     </div>
-                    <div class="col">
-                        <img src="./assets/img/otros-productos/producto_2.png" class="img-fluid h-100 rounded" alt="Producto 2">
+                    <div class="col" id="producto">
+                        <img src="./assets/img/otros-productos/producto_2.png" class="img-fluid h-100 rounded" alt="Vector Max">
+                        <img src="./assets/img/otros-productos/vectormax.png" class="img-fluid h-100 rounded hvr-float vectormax" alt="Vector Max">
                     </div>
-                    <div class="col">
-                        <img src="./assets/img/otros-productos/producto_3.png" class="img-fluid h-100 rounded" alt="Producto 3">
+                    <div class="col" id="producto">
+                        <img src="./assets/img/otros-productos/producto_3.png" class="img-fluid h-100 rounded" alt="Deco M4">
+                        <img src="./assets/img/otros-productos/decom4.png" class="img-fluid h-100 rounded hvr-float decom4" alt="Deco M4">
                     </div>
                 </div>
                 <h2 class="text-secondary text-center fst-italic my-3">Con lo último en tecnología para lograr la mayor velocidad de navegación <br>
