@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <meta name="title" content="Bievenido a Kuali Digital somos tu Internet">
+        <meta name="title" content="Bienvenido a Kuali Digital somos tu Internet">
         <meta name="DC.title" content="Bienvenido a Kuali Digital somos tu Internet">
         <meta http-equiv="title" content="Bienvenido a Kuali Digital somos tu Internet">
         <meta name="description" content="Ofrecemos un servicio de conexión de fibra óptica de última generación que se adapta a las posibilidades de nuestros clientes, a través de un modelo comercial.">
@@ -40,8 +40,6 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
         <link rel="stylesheet" href="./assets/css/style.css">
         <link rel="stylesheet" href="./assets/css/hover.css">
-        <!--<link rel="stylesheet" href="./assets/css/bootstrap-icons.css">
-        <link rel="stylesheet" href="./assets/css/bootstrap-icons.min.css">-->
         <!------------------->
 
         <!-- Scripts Mapa -->

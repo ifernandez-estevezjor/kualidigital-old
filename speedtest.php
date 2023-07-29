@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <meta name="title" content="Bienvenido a Kuali Digital somos tu Internet">
+        <meta name="title" content="Bievenido a Kuali Digital somos tu Internet">
         <meta name="DC.title" content="Bienvenido a Kuali Digital somos tu Internet">
         <meta http-equiv="title" content="Bienvenido a Kuali Digital somos tu Internet">
         <meta name="description" content="Ofrecemos un servicio de conexión de fibra óptica de última generación que se adapta a las posibilidades de nuestros clientes, a través de un modelo comercial.">
@@ -40,29 +40,29 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
         <link rel="stylesheet" href="./assets/css/style.css">
         <link rel="stylesheet" href="./assets/css/hover.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <!--<link rel="stylesheet" href="./assets/css/bootstrap-icons.css">
+        <link rel="stylesheet" href="./assets/css/bootstrap-icons.min.css">-->
         <!------------------->
 
-        <title>KualiDigital - Nosotros</title>
+        <title>KualiDigital - SpeedTest</title>
     </head>
     <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm rounded">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid mx-3">
                 <a class="navbar-brand" href="iniciar.php"><img src="./assets/img/inicio/logo-kuali.png" class="img-fluid" width="150" height="40" alt="Logo KualiDigital"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav mx-3 me-auto mb-2 mb-lg-0">
-                        
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-3 me-auto mb-2 mb-lg-0 navbar-fadein">
                         <li class="nav-item dropdown">
                             <a class="nav-link fw-bold nav-servicios dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 SERVICIOS
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="http://localhost/kualidigital/servicios.php/#ancla-internet">Internet</a></li>
-                                <li><a class="dropdown-item" href="http://localhost/kualidigital/servicios.php/#ancla-kualitv">KualiTV</a></li>
-                                <li><a class="dropdown-item" href="speedtest.php">Speed Test</a></li>
+                                <li><a class="dropdown-item" href="#">Internet</a></li>
+                                <li><a class="dropdown-item" href="#">KualiTV</a></li>
+                                <li><a class="dropdown-item" href="https://www.speedtest.net/">Speed Test</a></li>
                             </ul>
                         </li>
                         <li class="nav-item mx-1">
@@ -75,10 +75,10 @@
                             <a class="nav-link fw-bold nav-cobertura" href="cobertura.php">COBERTURA</a>
                         </li>
                         <li class="nav-item mx-1">
-                            <a class="nav-link fw-bold nav-productos" href="otros-productos.php">OTROS PRODUCTOS</a>
+                            <a class="nav-link fw-bold nav-productos" href="productos.php">OTROS PRODUCTOS</a>
                         </li>
                         <li class="nav-item mx-1">
-                            <a class="nav-link fw-bold nav-contacto" href="contacto-soporte.php">CONTACTO Y SOPORTE</a>
+                            <a class="nav-link fw-bold nav-contacto" href="contacto.php">CONTACTO Y SOPORTE</a>
                         </li>
                     </ul>
                     <div class="flex text-center">
@@ -86,9 +86,16 @@
                             <a class="" href=""><i class="bi bi-person fs-2 text-dark hvr-push"></i></a>
                         </div>
                         <div class="me-2">
-                            <ul class="navbar-nav mx-3 me-auto mb-lg-0">
-                                <li class="nav-item mx-1">
-                                    <a class="nav-link fw-bold nav-residencial" href="empresarial.php">EMPRESARIAL</a>
+                            <ul class="navbar-nav mx-3 me-auto mb-lg-0 navbar-fadein">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link fw-bold nav-residencial dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        RESIDENCIAL
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Item 1</a></li>
+                                        <li><a class="dropdown-item" href="#">Item 2</a></li>
+                                        <li><a class="dropdown-item" href="#">Item 3</a></li>
+                                    </ul>
                                 </li>
                             </ul>
                         </div>
@@ -97,81 +104,21 @@
             </div>
         </nav>
 
-        <div class="container my-3">
-            <h1 class="text-center display-5 fw-bold text-empresa">Somos una empresa 100% Hidalguense</h1>
-            <h2 class="text-center fst-italic fw-bold text-telecom">en expansión dentro del sector de telecomunicaciones</h2>
-        </div>
-
-        <div class="container text-center">
-            <div class="row align-items-end animate__animated animate__fadeInUp">
-                <div class="col">
-                <img src="./assets/img/nosotros/ingenieria-serv.png" class="img-fluid w-75 h-75" alt="">
-                </div>
-                
-                <div class="col">
-                <img src="./assets/img/nosotros/ingenieria.png" class="img-fluid w-50 h-50" alt="">
+            <!--OST Widget code start-->
+            <div style="text-align:right;">
+                <div style="min-height:360px;">
+                    <div style="width:100%;height:0;padding-bottom:50%;position:relative;">
+                        <iframe style="border:none;position:absolute;top:0;left:0;width:100%;height:100%;min-height:360px;border:none;overflow:hidden !important;" src="//openspeedtest.com/speedtest"></iframe>
+                    </div>
                 </div>
             </div>
-            <div class="row align-items-center animate__animated animate__fadeInUp animate__delay-2s 2s">
-                <div class="col text-start">
-                    <hr class="line-nosotros">
-                    <h1 class="fw-bold fst-italic">MISIÓN</h1>
-                    <p>Ser una empresa sustentable, altamente productiva y plenamente humana.</p>
-                    <hr class="line-nosotros">
-                </div>
-                <div class="col">
-                <video src="./assets/video/nosotros.mp4" style="border-radius: 50%;width:500px;height:50%;border-style:solid;border-width:5px;border-color:#05a8cd;" muted autoplay loop></video>
-                </div>
-                <div class="col text-start">
-                    <hr class="line-nosotros">
-                    <h1 class="fw-bold fst-italic">VISIÓN</h1>
-                    <p>Alimentos deliciosos y nutritivos en las manos de todos.</p>
-                    <hr class="line-nosotros">
-                </div>
-            </div>
-            <div class="row align-items-end animate__animated animate__fadeInUp animate__delay-3s 3s">
-                <div class="col">
-                <img src="./assets/img/nosotros/ventas.png" class="img-fluid w-75 h-75" alt="">
-                </div>
-                <div class="col">
-                <img src="./assets/img/nosotros/atencion.png" class="img-fluid w-50 h-50" alt="">
-                </div>
-                <div class="col">
-                    <h1 class="text-start fw-bold fst-italic">VALORES</h1>
-                    <ul class="text-start valores-list">
-                        <li>Valoramos a la persona.</li>
-                        <li>Somos una comunidad.</li>
-                        <li>Conseguimos los resultados.</li>
-                        <li>Competimos y ganamos.</li>
-                        <li>Somos operadores eficaces.</li>
-                        <li>Actuamos con integridad.</li>
-                        <li>Trascendemos y permanecemos en el tiempo.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <h1 class="text-center fw-bold display-5 text-nuestros mt-5">Lo que opinan nuestros clientes...</h1>
-        </div>
-        <div id="carouselExampleSlidesOnly" class="carousel slide my-5" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="./assets/img/nosotros/comentario_1.png" class="d-block w-100" alt="Comentario">
-                </div>
-                <div class="carousel-item">
-                    <img src="./assets/img/nosotros/comentario_2.png" class="d-block w-100" alt="Comentario">
-                </div>
-                <div class="carousel-item">
-                    <img src="./assets/img/nosotros/comentario_3.png" class="d-block w-100" alt="Comentario">
-                </div>
-            </div>
-        </div>
+            <!-- OST Widget code end -->
 
         <footer class="">
             <div class="container">
                 <!-- Row START -->
                 <div class="row">
+
                     <!-- Widget 2 START -->
                     <div class="col-lg-12 ms-auto">
                         <div class="row">
@@ -230,6 +177,5 @@
 
         <script src="./assets/js/bootstrap.js"></script>
         <script src="./assets/js/bootstrap.bundle.js"></script>
-        <script src="./assets/vendor/aos/aos.js"></script>
     </body>
 </html>

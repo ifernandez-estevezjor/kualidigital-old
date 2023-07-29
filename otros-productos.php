@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <meta name="title" content="Bievenido a Kuali Digital somos tu Internet">
+        <meta name="title" content="Bienvenido a Kuali Digital somos tu Internet">
         <meta name="DC.title" content="Bienvenido a Kuali Digital somos tu Internet">
         <meta http-equiv="title" content="Bienvenido a Kuali Digital somos tu Internet">
         <meta name="description" content="Ofrecemos un servicio de conexión de fibra óptica de última generación que se adapta a las posibilidades de nuestros clientes, a través de un modelo comercial.">
@@ -40,99 +40,129 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
         <link rel="stylesheet" href="./assets/css/style.css">
         <link rel="stylesheet" href="./assets/css/hover.css">
-        <!--<link rel="stylesheet" href="./assets/css/bootstrap-icons.css">
-        <link rel="stylesheet" href="./assets/css/bootstrap-icons.min.css">-->
         <!------------------->
 
         <title>KualiDigital - Otros Productos</title>
     </head>
     <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid mx-3">
-                    <a class="navbar-brand" href="iniciar.php"><img src="./assets/img/inicio/logo-kuali.png" class="img-fluid" width="150" height="40" alt="Logo KualiDigital"></a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mx-3 me-auto mb-2 mb-lg-0 navbar-fadein">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link fw-bold nav-servicios dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    SERVICIOS
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Internet</a></li>
-                                    <li><a class="dropdown-item" href="#">KualiTV</a></li>
-                                    <li><a class="dropdown-item" href="https://www.speedtest.net/">Speed Test</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item mx-1">
-                                <a class="nav-link fw-bold nav-paquetes" href="paquetes.php">PAQUETES</a>
-                            </li>
-                            <li class="nav-item mx-1">
-                                <a class="nav-link fw-bold nav-nosotros" href="nosotros.php">NOSOTROS</a>
-                            </li>
-                            <li class="nav-item mx-1">
-                                <a class="nav-link fw-bold nav-cobertura" href="cobertura.php">COBERTURA</a>
-                            </li>
-                            <li class="nav-item mx-1">
-                                <a class="nav-link fw-bold nav-productos" href="productos.php">OTROS PRODUCTOS</a>
-                            </li>
-                            <li class="nav-item mx-1">
-                                <a class="nav-link fw-bold nav-contacto" href="contacto.php">CONTACTO Y SOPORTE</a>
-                            </li>
-                        </ul>
-                        <div class="flex text-center">
-                            <div class="me-2">
-                                <a class="" href=""><i class="bi bi-person fs-2 text-dark hvr-push"></i></a>
-                            </div>
-                            <div class="me-2">
-                                <ul class="navbar-nav mx-3 me-auto mb-lg-0 navbar-fadein">
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link fw-bold nav-residencial dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            RESIDENCIAL
-                                        </a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">Item 1</a></li>
-                                            <li><a class="dropdown-item" href="#">Item 2</a></li>
-                                            <li><a class="dropdown-item" href="#">Item 3</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm rounded">
+            <div class="container-fluid mx-3">
+                <a class="navbar-brand" href="iniciar.php"><img src="./assets/img/inicio/logo-kuali.png" class="img-fluid" width="150" height="40" alt="Logo KualiDigital"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav mx-3 me-auto mb-2 mb-lg-0">
+                        
+                        <li class="nav-item dropdown">
+                            <a class="nav-link fw-bold nav-servicios dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                SERVICIOS
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="http://localhost/kualidigital/servicios.php/#ancla-internet">Internet</a></li>
+                                <li><a class="dropdown-item" href="http://localhost/kualidigital/servicios.php/#ancla-kualitv">KualiTV</a></li>
+                                <li><a class="dropdown-item" href="speedtest.php">Speed Test</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link fw-bold nav-paquetes" href="paquetes.php">PAQUETES</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link fw-bold nav-nosotros" href="nosotros.php">NOSOTROS</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link fw-bold nav-cobertura" href="cobertura.php">COBERTURA</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link fw-bold nav-productos" href="otros-productos.php">OTROS PRODUCTOS</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link fw-bold nav-contacto" href="contacto-soporte.php">CONTACTO Y SOPORTE</a>
+                        </li>
+                    </ul>
+                    <div class="flex text-center">
+                        <div class="me-2">
+                            <a class="" href=""><i class="bi bi-person fs-2 text-dark hvr-push"></i></a>
+                        </div>
+                        <div class="me-2">
+                            <ul class="navbar-nav mx-3 me-auto mb-lg-0">
+                                <li class="nav-item mx-1">
+                                    <a class="nav-link fw-bold nav-residencial" href="empresarial.php">EMPRESARIAL</a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-            </nav>
-
-            <div class="container my-4">
-                <h1 class="text-center display-4 fw-bold text-otros">¡Agrega estos productos <br> a tu paquete! </h1>
-                <h2 class="text-center fst-italic fw-bold text-redkuali">La red de KualiDigital se amplía, ofreciendo un servicio de vanguardia</h2>
             </div>
-            <div class="container text-center my-5 mt-5">
-                <div class="row">
-                    <div class="col" id="producto">
-                        <img src="./assets/img/otros-productos/producto_1.png" class="img-fluid h-100 rounded" alt="Rokuexpress" style="z-index: -999;">
-                        <img src="./assets/img/otros-productos/rokuexpress.png" class="img-fluid h-100 rounded hvr-float rokuexpress" alt="Rokuexpress">
-                    </div>
-                    <div class="col" id="producto">
-                        <img src="./assets/img/otros-productos/producto_2.png" class="img-fluid h-100 rounded" alt="Vector Max">
-                        <img src="./assets/img/otros-productos/vectormax.png" class="img-fluid h-100 rounded hvr-float vectormax" alt="Vector Max">
-                    </div>
-                    <div class="col" id="producto">
-                        <img src="./assets/img/otros-productos/producto_3.png" class="img-fluid h-100 rounded" alt="Deco M4">
-                        <img src="./assets/img/otros-productos/decom4.png" class="img-fluid h-100 rounded hvr-float decom4" alt="Deco M4">
+        </nav>
+
+        <div class="container my-4">
+            <h1 class="text-center display-4 fw-bold text-otros">¡Agrega estos productos <br> a tu paquete! </h1>
+            <h2 class="text-center fst-italic fw-bold text-redkuali">La red de KualiDigital se amplía, ofreciendo un servicio de vanguardia</h2>
+        </div>
+        <div class="container text-center my-5 mt-5">
+            <div class="row">
+                <div class="col" id="producto" data-bs-toggle="modal" data-bs-target="#rokuexpressModal" style="cursor:pointer">
+                    <img src="./assets/img/otros-productos/producto_1.png" class="img-fluid h-100 rounded" alt="Rokuexpress" style="z-index: -999;">
+                    <img src="./assets/img/otros-productos/rokuexpress.png" class="img-fluid h-100 rounded hvr-float rokuexpress" alt="Rokuexpress">
+                </div>
+                <div class="col" id="producto" data-bs-toggle="modal" data-bs-target="#vectormaxModal" style="cursor:pointer">
+                    <img src="./assets/img/otros-productos/producto_2.png" class="img-fluid h-100 rounded" alt="Vector Max">
+                    <img src="./assets/img/otros-productos/vectormax.png" class="img-fluid h-100 rounded hvr-float vectormax" alt="Vector Max">
+                </div>
+                <div class="col" id="producto" data-bs-toggle="modal" data-bs-target="#decom4Modal" style="cursor:pointer">
+                    <img src="./assets/img/otros-productos/producto_3.png" class="img-fluid h-100 rounded" alt="Deco M4">
+                    <img src="./assets/img/otros-productos/decom4.png" class="img-fluid h-100 rounded hvr-float decom4" alt="Deco M4">
+                </div>
+            </div>
+            <h2 class="text-secondary text-center fst-italic my-3">Con lo último en tecnología para lograr la mayor velocidad de navegación <br>
+            mediante nuestra Red de Fibra Óptica y cobertura Wireless.</h2>
+            <h2 class="text-secondary text-center fst-italic">¡Muy pronto a tu alcance!</h2>
+        </div>
+
+        <!-- Modal Rokuexpress -->
+        <div class="modal fade" id="rokuexpressModal" tabindex="-1" aria-labelledby="rokuexpressModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <img src="./assets/img/otros-productos/rokuexpress_info.png" class="img-fluid" alt="Rokuexpress">
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
                     </div>
                 </div>
-                <h2 class="text-secondary text-center fst-italic my-3">Con lo último en tecnología para lograr la mayor velocidad de navegación <br>
-                mediante nuestra Red de Fibra Óptica y cobertura Wireless.</h2>
-                <h2 class="text-secondary text-center fst-italic">¡Muy pronto a tu alcance!</h2>
             </div>
+        </div>
+        <!-- End Modal Rokuexpress -->
+
+        <!-- Modal VectorMax -->
+        <div class="modal fade" id="vectormaxModal" tabindex="-1" aria-labelledby="vectormaxModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <img src="./assets/img/otros-productos/vectormax_info.png" class="img-fluid" alt="VectorMax">
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Modal VectorMax -->
+
+        <!-- Modal DecoM4 -->
+        <div class="modal fade" id="decom4Modal" tabindex="-1" aria-labelledby="decom4ModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <img src="./assets/img/otros-productos/decom4_info.png" class="img-fluid" alt="Deco M4">
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Modal DecoM4 -->
 
         <footer class="">
             <div class="container">
                 <!-- Row START -->
                 <div class="row">
-
                     <!-- Widget 2 START -->
                     <div class="col-lg-12 ms-auto">
                         <div class="row">

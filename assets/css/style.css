@@ -60,6 +60,10 @@ body{
 /*****************************/
 
 /*** Página Servicios ***/
+.container-conectate{
+
+}
+
 .btn-descargar{
     background-color: #3a5b79;
     border: 5px outset #3a5b79;
@@ -384,6 +388,50 @@ footer{
 .img-canales{
     width: 66%;
 }
+
+.img-servicios{
+    width: 220px;
+    height: 220px;
+    cursor: pointer;
+}
+.img-internet, .img-plazos, .img-instalacion{
+    cursor: pointer;
+}
+.header-kualitv{
+    background-color: #7c2380;
+}
+.text-kualitv{
+    color: #7c2380;
+}
+.header-internet{
+    background-color: #e12822;
+}
+.text-internet{
+    color: #e12822;
+}
+.header-plazos{
+    background-color: #6db32d;
+}
+.text-plazos{
+    color: #6db32d;
+}
+.header-instalacion{
+    background-color: #f2931d;
+}
+.text-instalacion{
+    color: #f2931d;
+}
+.header-atencion{
+    background-color: #e42980;
+}
+.text-atper{
+    color: #e42980;
+}
+
+.img-internet, .img-plazos, .img-instalacion{
+    width: 180px;
+    height: 180px;
+}
 /*------------------------*/
 
 /*** Página Paquetes ***/
@@ -440,9 +488,25 @@ footer{
     border-radius: 25px;
 }
 
-
 .text-nuestros{
     color: #293462;
+}
+
+.line-nosotros{
+    border-width: 3px;
+    color: red;
+}
+
+.valores-list ul {
+    list-style: none;
+}
+
+.valores-list ul li::before {
+    content: "\2022";
+    color: red;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
 }
 /*------------------------*/
 

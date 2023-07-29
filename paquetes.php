@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <meta name="title" content="Bievenido a Kuali Digital somos tu Internet">
+        <meta name="title" content="Bienvenido a Kuali Digital somos tu Internet">
         <meta name="DC.title" content="Bienvenido a Kuali Digital somos tu Internet">
         <meta http-equiv="title" content="Bienvenido a Kuali Digital somos tu Internet">
         <meta name="description" content="Ofrecemos un servicio de conexión de fibra óptica de última generación que se adapta a las posibilidades de nuestros clientes, a través de un modelo comercial.">
@@ -47,356 +47,349 @@
         <title>KualiDigital - Paquetes</title>
     </head>
     <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid mx-3">
-                    <a class="navbar-brand" href="iniciar.php"><img src="./assets/img/inicio/logo-kuali.png" class="img-fluid" width="150" height="40" alt="Logo KualiDigital"></a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mx-3 me-auto mb-2 mb-lg-0 navbar-fadein">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link fw-bold nav-servicios dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    SERVICIOS
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Internet</a></li>
-                                    <li><a class="dropdown-item" href="#">KualiTV</a></li>
-                                    <li><a class="dropdown-item" href="https://www.speedtest.net/">Speed Test</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item mx-1">
-                                <a class="nav-link fw-bold nav-paquetes" href="paquetes.php">PAQUETES</a>
-                            </li>
-                            <li class="nav-item mx-1">
-                                <a class="nav-link fw-bold nav-nosotros" href="nosotros.php">NOSOTROS</a>
-                            </li>
-                            <li class="nav-item mx-1">
-                                <a class="nav-link fw-bold nav-cobertura" href="cobertura.php">COBERTURA</a>
-                            </li>
-                            <li class="nav-item mx-1">
-                                <a class="nav-link fw-bold nav-productos" href="productos.php">OTROS PRODUCTOS</a>
-                            </li>
-                            <li class="nav-item mx-1">
-                                <a class="nav-link fw-bold nav-contacto" href="contacto.php">CONTACTO Y SOPORTE</a>
-                            </li>
-                        </ul>
-                        <div class="flex text-center">
-                            <div class="me-2">
-                                <a class="" href=""><i class="bi bi-person fs-2 text-dark hvr-push"></i></a>
-                            </div>
-                            <div class="me-2">
-                                <ul class="navbar-nav mx-3 me-auto mb-lg-0 navbar-fadein">
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link fw-bold nav-residencial dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            RESIDENCIAL
-                                        </a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">Item 1</a></li>
-                                            <li><a class="dropdown-item" href="#">Item 2</a></li>
-                                            <li><a class="dropdown-item" href="#">Item 3</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm rounded">
+            <div class="container-fluid mx-3">
+                <a class="navbar-brand" href="iniciar.php"><img src="./assets/img/inicio/logo-kuali.png" class="img-fluid" width="150" height="40" alt="Logo KualiDigital"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav mx-3 me-auto mb-2 mb-lg-0">
+                        
+                        <li class="nav-item dropdown">
+                            <a class="nav-link fw-bold nav-servicios dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                SERVICIOS
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="http://localhost/kualidigital/servicios.php/#ancla-internet">Internet</a></li>
+                                <li><a class="dropdown-item" href="http://localhost/kualidigital/servicios.php/#ancla-kualitv">KualiTV</a></li>
+                                <li><a class="dropdown-item" href="speedtest.php">Speed Test</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link fw-bold nav-paquetes" href="paquetes.php">PAQUETES</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link fw-bold nav-nosotros" href="nosotros.php">NOSOTROS</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link fw-bold nav-cobertura" href="cobertura.php">COBERTURA</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link fw-bold nav-productos" href="otros-productos.php">OTROS PRODUCTOS</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link fw-bold nav-contacto" href="contacto-soporte.php">CONTACTO Y SOPORTE</a>
+                        </li>
+                    </ul>
+                    <div class="flex text-center">
+                        <div class="me-2">
+                            <a class="" href=""><i class="bi bi-person fs-2 text-dark hvr-push"></i></a>
                         </div>
-                    </div>
-                </div>
-            </nav>
-
-            <div class="container-banner-1">
-                <img src="./assets/img/paquetes/banner_1.png" class="img-fluid" alt="Banner">
-            </div>
-
-            <div class="my-5 mx-5">
-                <div class="row mx-5">
-                    <div class="col mx-5">
-                        <div class="card card-paquete1">
-                            <div class="image-header"><img src="./assets/img/inicio/paquete1_1.png" class="img-fluid w-100" alt=""></div>
-                            <div class="d-flex flex-row align-items-center p-2">
-                                <div class="p-1"><img src="./assets/img/inicio/internet.png" class="img-fluid" width="30" height="30" alt="Conexión a Internet"></div>
-                                <div class="p-1"><p class="card-text fw-bold fst-italic text-paquetes">INTERNET 100% <br> DE FIBRA ÓPTICA</p></div>
-                            </div>
-                            <div class="d-flex flex-row align-items-center p-2">
-                                <div class="p-1"><img src="./assets/img/inicio/atencion.png" class="img-fluid" width="30" height="30" alt="Atención Personalizada"></div>
-                                <div class="p-1"><p class="card-text fw-bold fst-italic text-paquetes">ATENCIÓN <br> PERSONALIZADA</p></div>
-                            </div>
-                            <div class="d-flex flex-row align-items-center p-2">
-                                <div class="p-1"><img src="./assets/img/inicio/movil.png" class="img-fluid" width="30" height="30" alt="4 dispositivos"></div>
-                                <div class="p-1"><p class="card-text fw-bold fst-italic text-paquetes">HASTA 4 DISPOSITIVOS <br> AL MISMO TIEMPO</p></div>
-                            </div>
-                            <div class="d-flex flex-row align-items-center p-2">
-                                <div class="p-1"><img src="./assets/img/inicio/kualitv.png" class="img-fluid" width="30" height="30" alt="KualiTV"></div>
-                                <div class="p-1"><p class="card-text fw-bold fst-italic text-paquetes">+ DE 60 CANALES DE TV</p></div>
-                            </div>
-                            <div class="image-footer img-texto"><img src="./assets/img/inicio/paquete1_2.png" class="img-fluid w-100" alt=""><a href="" data-bs-toggle="modal" data-bs-target="#enviarModal"><span class="text-center p-2 fs-5 fst-italic fw-bold">Quiero info <i class="bi bi-chevron-down"></i></span></a></div>
-                        </div>
-                    </div>
-                    <div class="col mx-5">
-                        <div class="card card-paquete2">
-                            <div class="image-header"><img src="./assets/img/inicio/paquete2_1.png" class="img-fluid w-100" alt=""></div>
-                            <div class="d-flex flex-row align-items-center p-2">
-                                <div class="p-1"><img src="./assets/img/inicio/internet.png" class="img-fluid" width="30" height="30" alt="Conexión a Internet"></div>
-                                <div class="p-1"><p class="card-text fw-bold fst-italic text-paquetes">INTERNET 100% <br> DE FIBRA ÓPTICA</p></div>
-                            </div>
-                            <div class="d-flex flex-row align-items-center p-2">
-                                <div class="p-1"><img src="./assets/img/inicio/atencion.png" class="img-fluid" width="30" height="30" alt="Atención Personalizada"></div>
-                                <div class="p-1"><p class="card-text fw-bold fst-italic text-paquetes">ATENCIÓN <br> PERSONALIZADA</p></div>
-                            </div>
-                            <div class="d-flex flex-row align-items-center p-2">
-                                <div class="p-1"><img src="./assets/img/inicio/movil.png" class="img-fluid" width="30" height="30" alt="4 dispositivos"></div>
-                                <div class="p-1"><p class="card-text fw-bold fst-italic text-paquetes">HASTA 4 DISPOSITIVOS <br> AL MISMO TIEMPO</p></div>
-                            </div>
-                            <div class="d-flex flex-row align-items-center p-2">
-                                <div class="p-1"><img src="./assets/img/inicio/kualitv.png" class="img-fluid" width="30" height="30" alt="KualiTV"></div>
-                                <div class="p-1"><p class="card-text fw-bold fst-italic text-paquetes">+ DE 60 CANALES DE TV</p></div>
-                            </div>
-                            <div class="image-footer img-texto"><img src="./assets/img/inicio/paquete2_2.png" class="img-fluid w-100" alt=""><a href="" data-bs-toggle="modal" data-bs-target="#enviarModal"><span class="text-center p-2 fs-5 fst-italic fw-bold">Quiero info <i class="bi bi-chevron-down"></i></span></a></div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card border-0">
-                            <div class="text-center container-chica">
-                                <img src="./assets/img/paquetes/chica-paquete.png" class="img-fluid img-chica" alt="">
-                            </div>
+                        <div class="me-2">
+                            <ul class="navbar-nav mx-3 me-auto mb-lg-0">
+                                <li class="nav-item mx-1">
+                                    <a class="nav-link fw-bold nav-residencial" href="empresarial.php">EMPRESARIAL</a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
+        </nav>
+
+        <div class="container-banner-1">
+            <img src="./assets/img/paquetes/banner_1.png" class="img-fluid" alt="Banner">
+        </div>
+
+        <div class="my-5 mx-5">
+            <div class="row mx-5">
+                <div class="col mx-5">
+                    <div class="card card-paquete1">
+                        <div class="image-header"><img src="./assets/img/inicio/paquete1_1.png" class="img-fluid w-100" alt=""></div>
+                        <div class="d-flex flex-row align-items-center p-2">
+                            <div class="p-1"><img src="./assets/img/inicio/internet.png" class="img-fluid" width="30" height="30" alt="Conexión a Internet"></div>
+                            <div class="p-1"><p class="card-text fw-bold fst-italic text-paquetes">INTERNET 100% <br> DE FIBRA ÓPTICA</p></div>
+                        </div>
+                        <div class="d-flex flex-row align-items-center p-2">
+                            <div class="p-1"><img src="./assets/img/inicio/atencion.png" class="img-fluid" width="30" height="30" alt="Atención Personalizada"></div>
+                            <div class="p-1"><p class="card-text fw-bold fst-italic text-paquetes">ATENCIÓN <br> PERSONALIZADA</p></div>
+                        </div>
+                        <div class="d-flex flex-row align-items-center p-2">
+                            <div class="p-1"><img src="./assets/img/inicio/movil.png" class="img-fluid" width="30" height="30" alt="4 dispositivos"></div>
+                            <div class="p-1"><p class="card-text fw-bold fst-italic text-paquetes">HASTA 4 DISPOSITIVOS <br> AL MISMO TIEMPO</p></div>
+                        </div>
+                        <div class="d-flex flex-row align-items-center p-2">
+                            <div class="p-1"><img src="./assets/img/inicio/kualitv.png" class="img-fluid" width="30" height="30" alt="KualiTV"></div>
+                            <div class="p-1"><p class="card-text fw-bold fst-italic text-paquetes">+ DE 60 CANALES DE TV</p></div>
+                        </div>
+                        <div class="image-footer img-texto"><img src="./assets/img/inicio/paquete1_2.png" class="img-fluid w-100" alt=""><a href="" data-bs-toggle="modal" data-bs-target="#enviarModal"><span class="text-center p-2 fs-5 fst-italic fw-bold">Quiero info <i class="bi bi-chevron-down"></i></span></a></div>
+                    </div>
+                </div>
+                <div class="col mx-5">
+                    <div class="card card-paquete2">
+                        <div class="image-header"><img src="./assets/img/inicio/paquete2_1.png" class="img-fluid w-100" alt=""></div>
+                        <div class="d-flex flex-row align-items-center p-2">
+                            <div class="p-1"><img src="./assets/img/inicio/internet.png" class="img-fluid" width="30" height="30" alt="Conexión a Internet"></div>
+                            <div class="p-1"><p class="card-text fw-bold fst-italic text-paquetes">INTERNET 100% <br> DE FIBRA ÓPTICA</p></div>
+                        </div>
+                        <div class="d-flex flex-row align-items-center p-2">
+                            <div class="p-1"><img src="./assets/img/inicio/atencion.png" class="img-fluid" width="30" height="30" alt="Atención Personalizada"></div>
+                            <div class="p-1"><p class="card-text fw-bold fst-italic text-paquetes">ATENCIÓN <br> PERSONALIZADA</p></div>
+                        </div>
+                        <div class="d-flex flex-row align-items-center p-2">
+                            <div class="p-1"><img src="./assets/img/inicio/movil.png" class="img-fluid" width="30" height="30" alt="4 dispositivos"></div>
+                            <div class="p-1"><p class="card-text fw-bold fst-italic text-paquetes">HASTA 4 DISPOSITIVOS <br> AL MISMO TIEMPO</p></div>
+                        </div>
+                        <div class="d-flex flex-row align-items-center p-2">
+                            <div class="p-1"><img src="./assets/img/inicio/kualitv.png" class="img-fluid" width="30" height="30" alt="KualiTV"></div>
+                            <div class="p-1"><p class="card-text fw-bold fst-italic text-paquetes">+ DE 60 CANALES DE TV</p></div>
+                        </div>
+                        <div class="image-footer img-texto"><img src="./assets/img/inicio/paquete2_2.png" class="img-fluid w-100" alt=""><a href="" data-bs-toggle="modal" data-bs-target="#enviarModal"><span class="text-center p-2 fs-5 fst-italic fw-bold">Quiero info <i class="bi bi-chevron-down"></i></span></a></div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0">
+                        <div class="text-center container-chica">
+                            <img src="./assets/img/paquetes/chica-paquete.png" class="img-fluid img-chica" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
             
-            <div class="my-5 mx-5">
-                <div class="row mx-5">
-                    <div class="col">
-                        <div class="card border-0">
-                            <div class="text-center container-chica">
-                                <img src="./assets/img/paquetes/chico-paquete.png" class="img-fluid img-chica" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mx-5">
-                        <div class="card card-paquete3">
-                            <div class="image-header"><img src="./assets/img/inicio/paquete3_1.png" class="img-fluid w-100" alt=""></div>
-                            <div class="d-flex flex-row align-items-center p-2">
-                                <div class="p-1"><img src="./assets/img/inicio/internet.png" class="img-fluid" width="30" height="30" alt="Conexión a Internet"></div>
-                                <div class="p-1"><p class="card-text fw-bold fst-italic text-paquetes">INTERNET 100% <br> DE FIBRA ÓPTICA</p></div>
-                            </div>
-                            <div class="d-flex flex-row align-items-center p-2">
-                                <div class="p-1"><img src="./assets/img/inicio/atencion.png" class="img-fluid" width="30" height="30" alt="Atención Personalizada"></div>
-                                <div class="p-1"><p class="card-text fw-bold fst-italic text-paquetes">ATENCIÓN <br> PERSONALIZADA</p></div>
-                            </div>
-                            <div class="d-flex flex-row align-items-center p-2">
-                                <div class="p-1"><img src="./assets/img/inicio/movil.png" class="img-fluid" width="30" height="30" alt="4 dispositivos"></div>
-                                <div class="p-1"><p class="card-text fw-bold fst-italic text-paquetes">HASTA 4 DISPOSITIVOS <br> AL MISMO TIEMPO</p></div>
-                            </div>
-                            <div class="d-flex flex-row align-items-center p-2">
-                                <div class="p-1"><img src="./assets/img/inicio/kualitv.png" class="img-fluid" width="30" height="30" alt="KualiTV"></div>
-                                <div class="p-1"><p class="card-text fw-bold fst-italic text-paquetes">+ DE 60 CANALES DE TV</p></div>
-                            </div>
-                            <div class="image-footer img-texto"><img src="./assets/img/inicio/paquete3_2.png" class="img-fluid w-100" alt=""><span class="text-center p-2 fs-5"><a href="" data-bs-toggle="modal" data-bs-target="#enviarModal"><span class="text-center p-2 fs-5 fst-italic fw-bold">Quiero info <i class="bi bi-chevron-down"></i></span></a></div>
-                        </div>
-                    </div>
-                    <div class="col mx-5">
-                        <div class="card card-paquete4">
-                            <div class="image-header"><img src="./assets/img/inicio/paquete4_1.png" class="img-fluid w-100" alt=""></div>
-                            <div class="d-flex flex-row align-items-center p-2">
-                                <div class="p-1"><img src="./assets/img/inicio/internet.png" class="img-fluid" width="30" height="30" alt="Conexión a Internet"></div>
-                                <div class="p-1"><p class="card-text fw-bold fst-italic text-paquetes">INTERNET 100% <br> DE FIBRA ÓPTICA</p></div>
-                            </div>
-                            <div class="d-flex flex-row align-items-center p-2">
-                                <div class="p-1"><img src="./assets/img/inicio/atencion.png" class="img-fluid" width="30" height="30" alt="Atención Personalizada"></div>
-                                <div class="p-1"><p class="card-text fw-bold fst-italic text-paquetes">ATENCIÓN <br> PERSONALIZADA</p></div>
-                            </div>
-                            <div class="d-flex flex-row align-items-center p-2">
-                                <div class="p-1"><img src="./assets/img/inicio/movil.png" class="img-fluid" width="30" height="30" alt="4 dispositivos"></div>
-                                <div class="p-1"><p class="card-text fw-bold fst-italic text-paquetes">HASTA 4 DISPOSITIVOS <br> AL MISMO TIEMPO</p></div>
-                            </div>
-                            <div class="d-flex flex-row align-items-center p-2">
-                                <div class="p-1"><img src="./assets/img/inicio/kualitv.png" class="img-fluid" width="30" height="30" alt="KualiTV"></div>
-                                <div class="p-1"><p class="card-text fw-bold fst-italic text-paquetes">+ DE 60 CANALES DE TV</p></div>
-                            </div>
-                            <div class="image-footer img-texto"><img src="./assets/img/inicio/paquete4_2.png" class="img-fluid w-100" alt=""><a href="" data-bs-toggle="modal" data-bs-target="#enviarModal"><span class="text-center p-2 fs-5 fst-italic fw-bold">Quiero info <i class="bi bi-chevron-down"></i></span></a></div>
+        <div class="my-5 mx-5">
+            <div class="row mx-5">
+                <div class="col">
+                    <div class="card border-0">
+                        <div class="text-center container-chica">
+                            <img src="./assets/img/paquetes/chico-paquete.png" class="img-fluid img-chica" alt="">
                         </div>
                     </div>
                 </div>
-                <h5 class="text-secondary text-center fst-italic my-3">*SIN PLAZOS FORZOSOS</h5>
+                <div class="col mx-5">
+                    <div class="card card-paquete3">
+                        <div class="image-header"><img src="./assets/img/inicio/paquete3_1.png" class="img-fluid w-100" alt=""></div>
+                        <div class="d-flex flex-row align-items-center p-2">
+                            <div class="p-1"><img src="./assets/img/inicio/internet.png" class="img-fluid" width="30" height="30" alt="Conexión a Internet"></div>
+                            <div class="p-1"><p class="card-text fw-bold fst-italic text-paquetes">INTERNET 100% <br> DE FIBRA ÓPTICA</p></div>
+                        </div>
+                        <div class="d-flex flex-row align-items-center p-2">
+                            <div class="p-1"><img src="./assets/img/inicio/atencion.png" class="img-fluid" width="30" height="30" alt="Atención Personalizada"></div>
+                            <div class="p-1"><p class="card-text fw-bold fst-italic text-paquetes">ATENCIÓN <br> PERSONALIZADA</p></div>
+                        </div>
+                        <div class="d-flex flex-row align-items-center p-2">
+                            <div class="p-1"><img src="./assets/img/inicio/movil.png" class="img-fluid" width="30" height="30" alt="4 dispositivos"></div>
+                            <div class="p-1"><p class="card-text fw-bold fst-italic text-paquetes">HASTA 4 DISPOSITIVOS <br> AL MISMO TIEMPO</p></div>
+                        </div>
+                        <div class="d-flex flex-row align-items-center p-2">
+                            <div class="p-1"><img src="./assets/img/inicio/kualitv.png" class="img-fluid" width="30" height="30" alt="KualiTV"></div>
+                            <div class="p-1"><p class="card-text fw-bold fst-italic text-paquetes">+ DE 60 CANALES DE TV</p></div>
+                        </div>
+                        <div class="image-footer img-texto"><img src="./assets/img/inicio/paquete3_2.png" class="img-fluid w-100" alt=""><span class="text-center p-2 fs-5"><a href="" data-bs-toggle="modal" data-bs-target="#enviarModal"><span class="text-center p-2 fs-5 fst-italic fw-bold">Quiero info <i class="bi bi-chevron-down"></i></span></a></div>
+                    </div>
+                </div>
+                <div class="col mx-5">
+                    <div class="card card-paquete4">
+                        <div class="image-header"><img src="./assets/img/inicio/paquete4_1.png" class="img-fluid w-100" alt=""></div>
+                        <div class="d-flex flex-row align-items-center p-2">
+                            <div class="p-1"><img src="./assets/img/inicio/internet.png" class="img-fluid" width="30" height="30" alt="Conexión a Internet"></div>
+                            <div class="p-1"><p class="card-text fw-bold fst-italic text-paquetes">INTERNET 100% <br> DE FIBRA ÓPTICA</p></div>
+                        </div>
+                        <div class="d-flex flex-row align-items-center p-2">
+                            <div class="p-1"><img src="./assets/img/inicio/atencion.png" class="img-fluid" width="30" height="30" alt="Atención Personalizada"></div>
+                            <div class="p-1"><p class="card-text fw-bold fst-italic text-paquetes">ATENCIÓN <br> PERSONALIZADA</p></div>
+                        </div>
+                        <div class="d-flex flex-row align-items-center p-2">
+                            <div class="p-1"><img src="./assets/img/inicio/movil.png" class="img-fluid" width="30" height="30" alt="4 dispositivos"></div>
+                            <div class="p-1"><p class="card-text fw-bold fst-italic text-paquetes">HASTA 4 DISPOSITIVOS <br> AL MISMO TIEMPO</p></div>
+                        </div>
+                        <div class="d-flex flex-row align-items-center p-2">
+                            <div class="p-1"><img src="./assets/img/inicio/kualitv.png" class="img-fluid" width="30" height="30" alt="KualiTV"></div>
+                            <div class="p-1"><p class="card-text fw-bold fst-italic text-paquetes">+ DE 60 CANALES DE TV</p></div>
+                        </div>
+                        <div class="image-footer img-texto"><img src="./assets/img/inicio/paquete4_2.png" class="img-fluid w-100" alt=""><a href="" data-bs-toggle="modal" data-bs-target="#enviarModal"><span class="text-center p-2 fs-5 fst-italic fw-bold">Quiero info <i class="bi bi-chevron-down"></i></span></a></div>
+                    </div>
+                </div>
             </div>
+            <h5 class="text-secondary text-center fst-italic my-3">*SIN PLAZOS FORZOSOS</h5>
+        </div>
 
-            <!-- Modal -->
-            <div class="modal fade" id="enviarModal" tabindex="-1" aria-labelledby="enviarModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                        <div class="modal-body">
-                            <small class="text-secondary">Ingresa tus datos</small>
-                            <p class="fw-bold fs-5">Nosotros te llamamos</p>
-                            <form action="">
-                            <div class="row">
-                                <div class="col">
-                                    <input type="text" name="nombre" class="form-control border-top-0 border-start-0 border-end-0" placeholder="Nombre">
-                                </div>
-                                <div class="col">
-                                    <input type="text" name="telefono" class="form-control border-top-0 border-start-0 border-end-0" placeholder="Teléfono">
-                                    <input type="text" name="codigo_postal" class="form-control border-top-0 border-start-0 border-end-0 my-3" placeholder="Código Postal">
-                                </div>
+        <!-- Modal -->
+        <div class="modal fade" id="enviarModal" tabindex="-1" aria-labelledby="enviarModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <small class="text-secondary">Ingresa tus datos</small>
+                        <p class="fw-bold fs-5">Nosotros te llamamos</p>
+                        <form action="">
+                        <div class="row">
+                            <div class="col">
+                                <input type="text" name="nombre" class="form-control border-top-0 border-start-0 border-end-0" placeholder="Nombre">
                             </div>
-                            </form>
+                            <div class="col">
+                                <input type="text" name="telefono" class="form-control border-top-0 border-start-0 border-end-0" placeholder="Teléfono">
+                                <input type="text" name="codigo_postal" class="form-control border-top-0 border-start-0 border-end-0 my-3" placeholder="Código Postal">
+                            </div>
                         </div>
-                        <div class="modal-footer border-0">
-                            <button type="button" class="btn btn-primary rounded-pill">Quiero que me llamen</button>
-                        </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer border-0">
+                        <button type="button" class="btn btn-primary rounded-pill">Quiero que me llamen</button>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <div class="container-kuali text-center">
-                <span class="fw-bold text-cliente">¿Por qué <img src="./assets/img/inicio/logo-kuali.png" class="img-fluid mb-3 img-kuali" alt="Logo KualiDigital">?</span>
-            </div>
-            <div class="container container-kualipaq text-center my-3">
-                <div class="row py-4 px-4">
-                    <div class="col py-4" data-bs-toggle="modal" data-bs-target="#kualitvModal" style="cursor:pointer">
-                        <div class="container-img-paquetes">
-                            <img src="./assets/img/paquetes/kualitv-icon.png" class="img-fluid hvr-grow img-kuali-paq" alt="">
-                        </div>
-                        <div class="container-text-paquetes mt-3">
-                            <span class="text-white fs-5 fw-bold fst-italic">Hasta 4 dispositivos al mismo tiempo</span>
-                        </div>
+        <div class="container-kuali text-center">
+            <span class="fw-bold text-cliente">¿Por qué <img src="./assets/img/inicio/logo-kuali.png" class="img-fluid mb-3 img-kuali" alt="Logo KualiDigital">?</span>
+        </div>
+        <div class="container container-kualipaq text-center my-3">
+            <div class="row py-4 px-4">
+                <div class="col py-4" data-bs-toggle="modal" data-bs-target="#kualitvModal" style="cursor:pointer">
+                    <div class="container-img-paquetes">
+                        <img src="./assets/img/paquetes/kualitv-icon.png" class="img-fluid hvr-grow img-kuali-paq" alt="">
                     </div>
-                    <div class="col py-4" data-bs-toggle="modal" data-bs-target="#internetModal" style="cursor:pointer">
-                        <div class="container-img-paquetes">
-                            <img src="./assets/img/paquetes/internet-icon.png" class="img-fluid hvr-grow img-kuali-paq" width="250" alt="">
-                        </div>
-                        <div class="container-text-paquetes mt-3">
-                            <span class="text-white fs-5 fw-bold fst-italic">Internet 100% de fibra óptica</span>
-                        </div>
+                    <div class="container-text-paquetes mt-3">
+                        <span class="text-white fs-5 fw-bold fst-italic">Hasta 4 dispositivos al mismo tiempo</span>
                     </div>
-                    <div class="col py-4" data-bs-toggle="modal" data-bs-target="#sinplazosModal" style="cursor:pointer">
-                        <div class="container-img-paquetes">
-                            <img src="./assets/img/paquetes/sinplazos-icon.png" class="img-fluid hvr-grow img-kuali-cont" width="250" alt="">
-                        </div>
-                        <div class="container-text-paquetes mt-3">
-                            <span class="text-white fs-5 fw-bold fst-italic">Sin plazos forzosos</span>
-                        </div>
+                </div>
+                <div class="col py-4" data-bs-toggle="modal" data-bs-target="#internetModal" style="cursor:pointer">
+                    <div class="container-img-paquetes">
+                        <img src="./assets/img/paquetes/internet-icon.png" class="img-fluid hvr-grow img-kuali-paq" width="250" alt="">
                     </div>
-                    <div class="col py-4" data-bs-toggle="modal" data-bs-target="#instalacionModal" style="cursor:pointer">
-                        <div class="container-img-paquetes">
-                            <img src="./assets/img/paquetes/instalacion-icon.png" class="img-fluid hvr-grow img-kuali-paq" width="250" alt="">
-                        </div>
-                        <div class="container-text-paquetes mt-3">
-                            <span class="text-white fs-5 fw-bold fst-italic">Instalación GRATIS</span>
-                        </div>
+                    <div class="container-text-paquetes mt-3">
+                        <span class="text-white fs-5 fw-bold fst-italic">Internet 100% de fibra óptica</span>
                     </div>
-                    <div class="col py-4" data-bs-toggle="modal" data-bs-target="#atencionModal" style="cursor:pointer">
-                        <div class="container-img-paquetes">
-                            <img src="./assets/img/paquetes/atencion-icon.png" class="img-fluid hvr-grow img-kuali-cont" width="250" alt="">
-                        </div>
-                        <div class="container-text-paquetes mt-3">
-                            <span class="text-white fs-5 fw-bold fst-italic">Atención personalizada</span>
-                        </div>
+                </div>
+                <div class="col py-4" data-bs-toggle="modal" data-bs-target="#sinplazosModal" style="cursor:pointer">
+                    <div class="container-img-paquetes">
+                        <img src="./assets/img/paquetes/sinplazos-icon.png" class="img-fluid hvr-grow img-kuali-cont" width="250" alt="">
+                    </div>
+                    <div class="container-text-paquetes mt-3">
+                        <span class="text-white fs-5 fw-bold fst-italic">Sin plazos forzosos</span>
+                    </div>
+                </div>
+                <div class="col py-4" data-bs-toggle="modal" data-bs-target="#instalacionModal" style="cursor:pointer">
+                    <div class="container-img-paquetes">
+                        <img src="./assets/img/paquetes/instalacion-icon.png" class="img-fluid hvr-grow img-kuali-paq" width="250" alt="">
+                    </div>
+                    <div class="container-text-paquetes mt-3">
+                        <span class="text-white fs-5 fw-bold fst-italic">Instalación GRATIS</span>
+                    </div>
+                </div>
+                <div class="col py-4" data-bs-toggle="modal" data-bs-target="#atencionModal" style="cursor:pointer">
+                    <div class="container-img-paquetes">
+                        <img src="./assets/img/paquetes/atencion-icon.png" class="img-fluid hvr-grow img-kuali-cont" width="250" alt="">
+                    </div>
+                    <div class="container-text-paquetes mt-3">
+                        <span class="text-white fs-5 fw-bold fst-italic">Atención personalizada</span>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <!-- Modal KualiTV -->
-            <div class="modal fade" id="kualitvModal" tabindex="-1" aria-labelledby="kualitvModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                        <div class="modal-header container-kualipaq">
-                            <h1 class="modal-title fs-5 text-white" id="kualitvModalLabel"><img src="./assets/img/paquetes/kualitv-icon.png" width="50" height="50" alt=""> KUALITV</h1>
-                        </div>
-                        <div class="modal-body">
-                            <h5 class="fst-italic">HASTA 4 DISPOSITIVOS AL MISMO TIEMPO</h5>
-                            <p>Disfruta de la programación de KualiTV hasta en 4 dispositivos al mismo tiempo
-                                (siempre que estén conectados a un red de Internet), sin cobro adicional.
-                            </p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
-                        </div>
+        <!-- Modal KualiTV -->
+        <div class="modal fade" id="kualitvModal" tabindex="-1" aria-labelledby="kualitvModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header container-kualipaq">
+                        <h1 class="modal-title fs-5 text-white" id="kualitvModalLabel"><img src="./assets/img/paquetes/kualitv-icon.png" width="50" height="50" alt=""> KUALITV</h1>
+                    </div>
+                    <div class="modal-body">
+                        <h5 class="fst-italic">HASTA 4 DISPOSITIVOS AL MISMO TIEMPO</h5>
+                        <p>Disfruta de la programación de KualiTV hasta en 4 dispositivos al mismo tiempo
+                            (siempre que estén conectados a un red de Internet), sin cobro adicional.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
                     </div>
                 </div>
             </div>
-            <!-- End Modal KualiTV -->
+        </div>
+        <!-- End Modal KualiTV -->
 
-            <!-- Modal Internet -->
-            <div class="modal fade" id="internetModal" tabindex="-1" aria-labelledby="internetModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                        <div class="modal-header container-kualipaq">
-                            <h1 class="modal-title fs-5 text-white" id="internetModalLabel"><img src="./assets/img/paquetes/internet-icon.png" class="img-fluid" width="40" height="40" alt="Internet"> INTERNET 100% DE FIBRA ÓPTICA</h1>
-                        </div>
-                        <div class="modal-body">
-                            <h5 class="fst-italic">INTERNET 100% FIBRA ÓPTICA</h5>
-                            <p>Servicio de Internet con la mayor potencia y velocidad de México gracias a nuestra red 100% de fibra óptica.</p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
-                        </div>
+        <!-- Modal Internet -->
+        <div class="modal fade" id="internetModal" tabindex="-1" aria-labelledby="internetModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header container-kualipaq">
+                        <h1 class="modal-title fs-5 text-white" id="internetModalLabel"><img src="./assets/img/paquetes/internet-icon.png" class="img-fluid" width="40" height="40" alt="Internet"> INTERNET 100% DE FIBRA ÓPTICA</h1>
+                    </div>
+                    <div class="modal-body">
+                        <h5 class="fst-italic">INTERNET 100% FIBRA ÓPTICA</h5>
+                        <p>Servicio de Internet con la mayor potencia y velocidad de México gracias a nuestra red 100% de fibra óptica.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
                     </div>
                 </div>
             </div>
-            <!-- End Modal Internet -->
+        </div>
+        <!-- End Modal Internet -->
 
-            <!-- Modal Plazos -->
-            <div class="modal fade" id="sinplazosModal" tabindex="-1" aria-labelledby="sinplazosModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                        <div class="modal-header container-kualipaq">
-                            <h1 class="modal-title fs-5 text-white" id="sinplazosModalLabel"><img src="./assets/img/paquetes/sinplazos-icon.png" class="img-fluid" width="40" height="40" alt="Plazos"> SIN PLAZOS FORZOSOS</h1>
-                        </div>
-                        <div class="modal-body">
-                            <h5 class="fst-italic">SIN PLAZOS FORZOSOS</h5>
-                            <p>Libertad para permanecer con el servicio durante el tiempo que consideren oportuno.</p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
-                        </div>
+        <!-- Modal Plazos -->
+        <div class="modal fade" id="sinplazosModal" tabindex="-1" aria-labelledby="sinplazosModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header container-kualipaq">
+                        <h1 class="modal-title fs-5 text-white" id="sinplazosModalLabel"><img src="./assets/img/paquetes/sinplazos-icon.png" class="img-fluid" width="40" height="40" alt="Plazos"> SIN PLAZOS FORZOSOS</h1>
+                    </div>
+                    <div class="modal-body">
+                        <h5 class="fst-italic">SIN PLAZOS FORZOSOS</h5>
+                        <p>Libertad para permanecer con el servicio durante el tiempo que consideren oportuno.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
                     </div>
                 </div>
             </div>
-            <!-- End Modal Plazos -->
+        </div>
+        <!-- End Modal Plazos -->
 
-            <!-- Modal Instalación -->
-            <div class="modal fade" id="instalacionModal" tabindex="-1" aria-labelledby="instalacionModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                        <div class="modal-header container-kualipaq">
-                            <h1 class="modal-title fs-5 text-white" id="instalacionModalLabel"><img src="./assets/img/paquetes/instalacion-icon.png" class="img-fluid" width="40" height="40" alt="Instalacion"> INSTALACIÓN GRATIS</h1>
-                        </div>
-                        <div class="modal-body">
-                            <h5 class="fst-italic">INSTALACIÓN GRATIS</h5>
-                            <p>Sin costo de instalación para nuestro servicio de Internet.</p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
-                        </div>
+        <!-- Modal Instalación -->
+        <div class="modal fade" id="instalacionModal" tabindex="-1" aria-labelledby="instalacionModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header container-kualipaq">
+                        <h1 class="modal-title fs-5 text-white" id="instalacionModalLabel"><img src="./assets/img/paquetes/instalacion-icon.png" class="img-fluid" width="40" height="40" alt="Instalacion"> INSTALACIÓN GRATIS</h1>
+                    </div>
+                    <div class="modal-body">
+                        <h5 class="fst-italic">INSTALACIÓN GRATIS</h5>
+                        <p>Sin costo de instalación para nuestro servicio de Internet.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
                     </div>
                 </div>
             </div>
-            <!-- End Modal Instalación -->
+        </div>
+        <!-- End Modal Instalación -->
 
-            <!-- Modal Atención -->
-            <div class="modal fade" id="atencionModal" tabindex="-1" aria-labelledby="atencionModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                        <div class="modal-header container-kualipaq">
-                            <h1 class="modal-title fs-5 text-white" id="atencionModalLabel"><img src="./assets/img/paquetes/atencion-icon.png" class="img-fluid" width="40" height="40" alt="Atención"> ATENCIÓN PERSONALIZADA</h1>
-                        </div>
-                        <div class="modal-body">
-                            <h5 class="fst-italic">ATENCIÓN PERSONALIZADA</h5>
-                            <p>Atención a todos nuestros usuarios de manera personalizada a través de una línea telefónica o WhatsApp.</p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
-                        </div>
+        <!-- Modal Atención -->
+        <div class="modal fade" id="atencionModal" tabindex="-1" aria-labelledby="atencionModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header container-kualipaq">
+                        <h1 class="modal-title fs-5 text-white" id="atencionModalLabel"><img src="./assets/img/paquetes/atencion-icon.png" class="img-fluid" width="40" height="40" alt="Atención"> ATENCIÓN PERSONALIZADA</h1>
+                    </div>
+                    <div class="modal-body">
+                        <h5 class="fst-italic">ATENCIÓN PERSONALIZADA</h5>
+                        <p>Atención a todos nuestros usuarios de manera personalizada a través de una línea telefónica o WhatsApp.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
                     </div>
                 </div>
             </div>
-            <!-- End Modal Atención -->
+        </div>
+        <!-- End Modal Atención -->
 
         <footer class="">
             <div class="container">
                 <!-- Row START -->
                 <div class="row">
-
                     <!-- Widget 2 START -->
                     <div class="col-lg-12 ms-auto">
                         <div class="row">

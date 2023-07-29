@@ -105,8 +105,7 @@
             </nav>
 
             <div class="container py-4">
-                <a name="prueba-ancla"></a>
-                <h1 class="text-center display-5 fw-bold text-conectate">Conéctate con todo  lo que te gusta</h1>
+                <h1 class="text-center display-5 fw-bold text-conectate" id="ancla-internet">Conéctate con todo  lo que te gusta</h1>
                 <h2 class="text-center fst-italic fw-bold text-fibra">Todo lo que realices sin interrupciones con internet de fibra óptica</h2>
             </div>
 
@@ -122,7 +121,7 @@
             </div>
 
             <div class="container pt-5">
-                <h1 class="text-center display-5 fw-bold text-appk">Disfruta de los canales más populares <br> en tu app de KualiTV</h1>
+                <h1 class="text-center display-5 fw-bold text-appk" id="ancla-kualitv">Disfruta de los canales más populares <br> en tu app de KualiTV</h1>
             </div>
             <div class="container">
                 <div class="container text-center">
@@ -143,9 +142,144 @@
                 <h1 class="text-center fw-bold fst-italic text-ciudad">¡Estamos llegando a tu ciudad!</h1>
             </div>
 
-            <div class="container-banner py-5">
-                <img src="./assets/img/servicios/banner_2.png" class="img-fluid" alt="Banner">
+            <div class="container-banner py-5" style="background-image: url(./assets/img/servicios/banner_4.png);background-size:cover;">
+                <div class="container text-center">
+                    <div class="row align-items-center">
+                        <div class="col" data-bs-toggle="modal" data-bs-target="#kualitvModal">
+                            <div class="">
+                                <img src="./assets/img/servicios/kualitv.png" class="img-fluid hvr-grow img-servicios" alt="KualiTV">
+                            </div>
+                            <div class="container-text-paquetes">
+                                <span class="fs-5 fw-bold fst-italic text-kualitv">Hasta 4 dispositivos al mismo tiempo</span>
+                            </div>
+                        </div>
+                        <div class="col" data-bs-toggle="modal" data-bs-target="#internetModal">
+                            <div class="">
+                                <img src="./assets/img/servicios/internet.png" class="img-fluid hvr-grow img-internet" alt="Internet">
+                            </div>
+                            <div class="mt-5">
+                                <span class="fs-5 fw-bold fst-italic text-internet">Internet 100% de fibra óptica</span>
+                            </div>
+                        </div>
+                        <div class="col" data-bs-toggle="modal" data-bs-target="#sinplazosModal">
+                            <div class="">
+                                <img src="./assets/img/servicios/sinplazos.png" class="img-fluid hvr-grow img-plazos" alt="Sin Plazos">
+                            </div>
+                            <div class="mt-3">
+                                <span class="fs-5 fw-bold fst-italic text-plazos">Sin plazos forzosos</span>
+                            </div>
+                        </div>
+                        <div class="col" data-bs-toggle="modal" data-bs-target="#instalacionModal">
+                            <div class="">
+                                <img src="./assets/img/servicios/instalacion.png" class="img-fluid hvr-grow img-instalacion" alt="Instalación Gratis">
+                            </div>
+                            <div class="mt-3">
+                                <span class="fs-5 fw-bold fst-italic text-instalacion">Instalación GRATIS</span>
+                            </div>
+                        </div>
+                        <div class="col" data-bs-toggle="modal" data-bs-target="#atencionModal">
+                            <div class="">
+                                <img src="./assets/img/servicios/atencion.png" class="img-fluid hvr-grow img-servicios" alt="Atencion Personalizada">
+                            </div>
+                            <div class="mt-2">
+                                <span class="fs-5 fw-bold fst-italic text-atper">Atención personalizada</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+
+            <!-- Modal KualiTV -->
+            <div class="modal fade" id="kualitvModal" tabindex="-1" aria-labelledby="kualitvModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header header-kualitv">
+                            <h1 class="modal-title fs-5 text-white" id="kualitvModalLabel"><img src="./assets/img/paquetes/kualitv-icon.png" width="50" height="50" alt=""> HASTA 4 DISPOSITIVOS AL MISMO TIEMPO</h1>
+                        </div>
+                        <div class="modal-body">
+                            <p>Disfruta de la programación de KualiTV hasta en 4 dispositivos al mismo tiempo
+                                (siempre que estén conectados a un red de Internet), sin cobro adicional.
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Modal KualiTV -->
+
+            <!-- Modal Internet -->
+            <div class="modal fade" id="internetModal" tabindex="-1" aria-labelledby="internetModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header header-internet">
+                            <h1 class="modal-title fs-5 text-white" id="internetModalLabel"><img src="./assets/img/paquetes/internet-icon.png" class="img-fluid" width="40" height="40" alt="Internet"> INTERNET 100% DE FIBRA ÓPTICA</h1>
+                        </div>
+                        <div class="modal-body">
+                            <p>Servicio de Internet con la mayor potencia y velocidad de México gracias a nuestra red 100% de fibra óptica.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Modal Internet -->
+
+            <!-- Modal Plazos -->
+            <div class="modal fade" id="sinplazosModal" tabindex="-1" aria-labelledby="sinplazosModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header header-plazos">
+                            <h1 class="modal-title fs-5 text-white" id="sinplazosModalLabel"><img src="./assets/img/paquetes/sinplazos-icon.png" class="img-fluid" width="40" height="40" alt="Plazos"> SIN PLAZOS FORZOSOS</h1>
+                        </div>
+                        <div class="modal-body">
+                            <p>Libertad para permanecer con el servicio durante el tiempo que consideren oportuno.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Modal Plazos -->
+
+            <!-- Modal Instalación -->
+            <div class="modal fade" id="instalacionModal" tabindex="-1" aria-labelledby="instalacionModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header header-instalacion">
+                            <h1 class="modal-title fs-5 text-white" id="instalacionModalLabel"><img src="./assets/img/paquetes/instalacion-icon.png" class="img-fluid" width="40" height="40" alt="Instalacion"> INSTALACIÓN GRATIS</h1>
+                        </div>
+                        <div class="modal-body">
+                            <p>Sin costo de instalación para nuestro servicio de Internet.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Modal Instalación -->
+
+            <!-- Modal Atención -->
+            <div class="modal fade" id="atencionModal" tabindex="-1" aria-labelledby="atencionModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header header-atencion">
+                            <h1 class="modal-title fs-5 text-white" id="atencionModalLabel"><img src="./assets/img/paquetes/atencion-icon.png" class="img-fluid" width="40" height="40" alt="Atención"> ATENCIÓN PERSONALIZADA</h1>
+                        </div>
+                        <div class="modal-body">
+                            <p>Atención a todos nuestros usuarios de manera personalizada a través de una línea telefónica o WhatsApp.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Modal Atención -->
 
             <div class="container py-5 img-texto">
                 <h1 class="text-center fw-bold display-3 text-llevanos">¡LLÉVANOS A DONDE QUIERAS!</h1>

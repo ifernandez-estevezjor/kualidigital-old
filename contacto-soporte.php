@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <meta name="title" content="Bievenido a Kuali Digital somos tu Internet">
+        <meta name="title" content="Bienvenido a Kuali Digital somos tu Internet">
         <meta name="DC.title" content="Bienvenido a Kuali Digital somos tu Internet">
         <meta http-equiv="title" content="Bienvenido a Kuali Digital somos tu Internet">
         <meta name="description" content="Ofrecemos un servicio de conexión de fibra óptica de última generación que se adapta a las posibilidades de nuestros clientes, a través de un modelo comercial.">
@@ -40,84 +40,76 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
         <link rel="stylesheet" href="./assets/css/style.css">
         <link rel="stylesheet" href="./assets/css/hover.css">
-        <!--<link rel="stylesheet" href="./assets/css/bootstrap-icons.css">
-        <link rel="stylesheet" href="./assets/css/bootstrap-icons.min.css">-->
         <!------------------->
 
         <title>KualiDigital - Contacto y Soporte</title>
     </head>
     <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid mx-3">
-                    <a class="navbar-brand" href="iniciar.php"><img src="./assets/img/inicio/logo-kuali.png" class="img-fluid" width="150" height="40" alt="Logo KualiDigital"></a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mx-3 me-auto mb-2 mb-lg-0 navbar-fadein">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link fw-bold nav-servicios dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    SERVICIOS
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Internet</a></li>
-                                    <li><a class="dropdown-item" href="#">KualiTV</a></li>
-                                    <li><a class="dropdown-item" href="https://www.speedtest.net/">Speed Test</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item mx-1">
-                                <a class="nav-link fw-bold nav-paquetes" href="paquetes.php">PAQUETES</a>
-                            </li>
-                            <li class="nav-item mx-1">
-                                <a class="nav-link fw-bold nav-nosotros" href="nosotros.php">NOSOTROS</a>
-                            </li>
-                            <li class="nav-item mx-1">
-                                <a class="nav-link fw-bold nav-cobertura" href="cobertura.php">COBERTURA</a>
-                            </li>
-                            <li class="nav-item mx-1">
-                                <a class="nav-link fw-bold nav-productos" href="productos.php">OTROS PRODUCTOS</a>
-                            </li>
-                            <li class="nav-item mx-1">
-                                <a class="nav-link fw-bold nav-contacto" href="contacto.php">CONTACTO Y SOPORTE</a>
-                            </li>
-                        </ul>
-                        <div class="flex text-center">
-                            <div class="me-2">
-                                <a class="" href=""><i class="bi bi-person fs-2 text-dark hvr-push"></i></a>
-                            </div>
-                            <div class="me-2">
-                                <ul class="navbar-nav mx-3 me-auto mb-lg-0 navbar-fadein">
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link fw-bold nav-residencial dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            RESIDENCIAL
-                                        </a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">Item 1</a></li>
-                                            <li><a class="dropdown-item" href="#">Item 2</a></li>
-                                            <li><a class="dropdown-item" href="#">Item 3</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm rounded">
+            <div class="container-fluid mx-3">
+                <a class="navbar-brand" href="iniciar.php"><img src="./assets/img/inicio/logo-kuali.png" class="img-fluid" width="150" height="40" alt="Logo KualiDigital"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav mx-3 me-auto mb-2 mb-lg-0">
+                        
+                        <li class="nav-item dropdown">
+                            <a class="nav-link fw-bold nav-servicios dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                SERVICIOS
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="http://localhost/kualidigital/servicios.php/#ancla-internet">Internet</a></li>
+                                <li><a class="dropdown-item" href="http://localhost/kualidigital/servicios.php/#ancla-kualitv">KualiTV</a></li>
+                                <li><a class="dropdown-item" href="speedtest.php">Speed Test</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link fw-bold nav-paquetes" href="paquetes.php">PAQUETES</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link fw-bold nav-nosotros" href="nosotros.php">NOSOTROS</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link fw-bold nav-cobertura" href="cobertura.php">COBERTURA</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link fw-bold nav-productos" href="otros-productos.php">OTROS PRODUCTOS</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link fw-bold nav-contacto" href="contacto-soporte.php">CONTACTO Y SOPORTE</a>
+                        </li>
+                    </ul>
+                    <div class="flex text-center">
+                        <div class="me-2">
+                            <a class="" href=""><i class="bi bi-person fs-2 text-dark hvr-push"></i></a>
+                        </div>
+                        <div class="me-2">
+                            <ul class="navbar-nav mx-3 me-auto mb-lg-0">
+                                <li class="nav-item mx-1">
+                                    <a class="nav-link fw-bold nav-residencial" href="empresarial.php">EMPRESARIAL</a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-            </nav>
-
-            <div class="container my-4">
-                <h1 class="text-center display-4 fw-bold text-soporte">CONTACTO Y SOPORTE</h1>
             </div>
+        </nav>
+
+        <div class="container my-4">
+            <h1 class="text-center display-4 fw-bold text-soporte">CONTACTO Y SOPORTE</h1>
+        </div>
             
-            <div class="container text-center my-5">
-                <div class="row">
-                    <img src="./assets/img/contacto-soporte/banner_contacto.gif" alt="">
-                </div>
+        <div class="container text-center my-5">
+            <div class="row">
+                <img src="./assets/img/contacto-soporte/banner_contacto.gif" alt="">
             </div>
+        </div>
 
-            <div class="container-contacto">
-                <h1 class="text-white text-center fw-bold">MÁNDANOS TUS COMENTARIOS</h1>
-            </div>
-            <div class="container my-3">
+        <div class="container-contacto">
+            <h1 class="text-white text-center fw-bold">MÁNDANOS TUS COMENTARIOS</h1>
+        </div>
+        <div class="container my-3">
             <form class="g-3">
                 <div class="row justify-content-center">
                     <div class="col-md-3">
@@ -152,36 +144,12 @@
                     </div>
                 </div>
             </form>
-
-                <!--<form action="">
-                    <div class="row justify-content-center">
-                        <div class="col-md-3">
-                            <label for="inputNombre" class="form-label fw-bold">Nombre<span class="required-input">*</span></label>
-                            <input type="text" class="form-control" name="nombre" aria-label="Nombre">
-                        </div>
-                        <div class="col-md-3">
-                            <label for="inputNumContrato" class="form-label fw-bold">Número de Contrato<span class="required-input">*</span></label>
-                            <input type="text" class="form-control" name="num_contrato" aria-label="No Contrato">
-                        </div>
-                        <div class="col-md-3">
-                            <label for="inputCodigoPostal" class="form-label fw-bold">Código Postal<span class="required-input">*</span></label>
-                            <input type="text" class="form-control" name="codigo_postal" aria-label="Código Postal">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-3">
-                            <label for="inputCodigoPostal" class="form-label fw-bold">Código Postal<span class="required-input">*</span></label>
-                            <input type="text" class="form-control" name="codigo_postal" aria-label="Código Postal">
-                        </div>
-                    </div>
-                </form>-->
-            </div>
+        </div>
 
         <footer class="">
             <div class="container">
                 <!-- Row START -->
                 <div class="row">
-
                     <!-- Widget 2 START -->
                     <div class="col-lg-12 ms-auto">
                         <div class="row">

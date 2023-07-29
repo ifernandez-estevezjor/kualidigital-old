@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <meta name="title" content="Bievenido a Kuali Digital somos tu Internet">
+        <meta name="title" content="Bienvenido a Kuali Digital somos tu Internet">
         <meta name="DC.title" content="Bienvenido a Kuali Digital somos tu Internet">
         <meta http-equiv="title" content="Bienvenido a Kuali Digital somos tu Internet">
         <meta name="description" content="Ofrecemos un servicio de conexión de fibra óptica de última generación que se adapta a las posibilidades de nuestros clientes, a través de un modelo comercial.">
@@ -40,206 +40,135 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
         <link rel="stylesheet" href="./assets/css/style.css">
         <link rel="stylesheet" href="./assets/css/hover.css">
-        <!--<link rel="stylesheet" href="./assets/css/bootstrap-icons.css">
-        <link rel="stylesheet" href="./assets/css/bootstrap-icons.min.css">-->
         <!------------------->
 
         <title>KualiDigital - Empresarial</title>
     </head>
     <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid mx-3">
-                    <a class="navbar-brand" href="iniciar.php"><img src="./assets/img/inicio/logo-kuali.png" class="img-fluid" width="150" height="40" alt="Logo KualiDigital"></a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mx-3 me-auto mb-2 mb-lg-0 navbar-fadein">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link fw-bold nav-servicios dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    SERVICIOS
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Internet</a></li>
-                                    <li><a class="dropdown-item" href="#">KualiTV</a></li>
-                                    <li><a class="dropdown-item" href="https://www.speedtest.net/">Speed Test</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item mx-1">
-                                <a class="nav-link fw-bold nav-paquetes" href="paquetes.php">PAQUETES</a>
-                            </li>
-                            <li class="nav-item mx-1">
-                                <a class="nav-link fw-bold nav-nosotros" href="nosotros.php">NOSOTROS</a>
-                            </li>
-                            <li class="nav-item mx-1">
-                                <a class="nav-link fw-bold nav-cobertura" href="cobertura.php">COBERTURA</a>
-                            </li>
-                            <li class="nav-item mx-1">
-                                <a class="nav-link fw-bold nav-productos" href="productos.php">OTROS PRODUCTOS</a>
-                            </li>
-                            <li class="nav-item mx-1">
-                                <a class="nav-link fw-bold nav-contacto" href="contacto.php">CONTACTO Y SOPORTE</a>
-                            </li>
-                        </ul>
-                        <div class="flex text-center">
-                            <div class="me-2">
-                                <a class="" href=""><i class="bi bi-person fs-2 text-dark hvr-push"></i></a>
-                            </div>
-                            <div class="me-2">
-                                <ul class="navbar-nav mx-3 me-auto mb-lg-0 navbar-fadein">
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link fw-bold nav-residencial dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            RESIDENCIAL
-                                        </a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">Item 1</a></li>
-                                            <li><a class="dropdown-item" href="#">Item 2</a></li>
-                                            <li><a class="dropdown-item" href="#">Item 3</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm rounded">
+            <div class="container-fluid mx-3">
+                <a class="navbar-brand" href="iniciar.php"><img src="./assets/img/inicio/logo-kuali.png" class="img-fluid" width="150" height="40" alt="Logo KualiDigital"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav mx-3 me-auto mb-2 mb-lg-0">
+                        
+                        <li class="nav-item dropdown">
+                            <a class="nav-link fw-bold nav-servicios dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                SERVICIOS
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="http://localhost/kualidigital/servicios.php/#ancla-internet">Internet</a></li>
+                                <li><a class="dropdown-item" href="http://localhost/kualidigital/servicios.php/#ancla-kualitv">KualiTV</a></li>
+                                <li><a class="dropdown-item" href="speedtest.php">Speed Test</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link fw-bold nav-paquetes" href="paquetes.php">PAQUETES</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link fw-bold nav-nosotros" href="nosotros.php">NOSOTROS</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link fw-bold nav-cobertura" href="cobertura.php">COBERTURA</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link fw-bold nav-productos" href="otros-productos.php">OTROS PRODUCTOS</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link fw-bold nav-contacto" href="contacto-soporte.php">CONTACTO Y SOPORTE</a>
+                        </li>
+                    </ul>
+                    <div class="flex text-center">
+                        <div class="me-2">
+                            <a class="" href=""><i class="bi bi-person fs-2 text-dark hvr-push"></i></a>
+                        </div>
+                        <div class="me-2">
+                            <ul class="navbar-nav mx-3 me-auto mb-lg-0">
+                                <li class="nav-item mx-1">
+                                    <a class="nav-link fw-bold nav-residencial" href="empresarial.php">EMPRESARIAL</a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-            </nav>
-
-            <div class="text-center py-3 bg-header">
-                <a href="contacto.php" class="text-white fw-bold p-2 hvr-pulse btn btn-atencion">¡Quiero que me contacten!</a>
             </div>
+        </nav>
 
-            <div class="container-carousel">
-                <div id="carouselKualiIndicators" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselKualiIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselKualiIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    </div>
-                    <div class="carousel-inner">
-                        <div class="row justify-content-end mx-3 my-2 form-empresarial">
-                            <div class="col-3 bg-white rounded">
-                                <img src="./assets/img/empresarial/logo-kuali-empresarial.png" class="img-fluid w-75 mx-auto d-block my-3" alt="">
-                                <form class="my-3 mx-3" action="">
-                                    <div class="col">
-                                        <div class="mb-3">
-                                            <input type="text" class="form-control fst-italic" id="InputNombre" placeholder="Nombre Completo">
-                                        </div>
-                                        <div class="mb-3">
-                                            <input type="text" class="form-control fst-italic" id="InputTelefono" placeholder="Teléfono">
-                                        </div>
-                                        <div class="mb-3">
-                                            <input type="text" class="form-control fst-italic" id="InputCodigoPostal" placeholder="Código Postal">
-                                        </div>
-                                        <div class="mb-3">
-                                            <input type="email" class="form-control fst-italic" id="InputEmail" placeholder="Email">
-                                        </div>
+        <div class="text-center py-3 bg-header">
+            <a href="contacto.php" class="text-white fw-bold p-2 hvr-pulse btn btn-atencion">¡Quiero que me contacten!</a>
+        </div>
+
+        <div class="container-carousel">
+            <div id="carouselKualiIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselKualiIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselKualiIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="row justify-content-end mx-3 my-2 form-empresarial">
+                        <div class="col-3 bg-white rounded">
+                            <img src="./assets/img/empresarial/logo-kuali-empresarial.png" class="img-fluid w-75 mx-auto d-block my-3" alt="">
+                            <form class="my-3 mx-3" action="">
+                                <div class="col">
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control fst-italic" id="InputNombre" placeholder="Nombre Completo">
                                     </div>
-                                    <center><button type="submit" class="text-white fw-bold fst-italic hvr-glow btn btn-contacto-emp">Quiero que me contacten</button></center>
-                                </form>
-                            </div>
-                        </div>
-                        <div class="carousel-item active">
-                            <img src="./assets/img/empresarial/empresarial_1.png" class="d-block w-100 img-fluid" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./assets/img/empresarial/empresarial_2.png" class="d-block w-100 img-fluid" alt="...">
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control fst-italic" id="InputTelefono" placeholder="Teléfono">
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control fst-italic" id="InputCodigoPostal" placeholder="Código Postal">
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="email" class="form-control fst-italic" id="InputEmail" placeholder="Email">
+                                    </div>
+                                </div>
+                                <center><button type="submit" class="text-white fw-bold fst-italic hvr-glow btn btn-contacto-emp">Quiero que me contacten</button></center>
+                            </form>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselKualiIndicators" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselKualiIndicators" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
+                    <div class="carousel-item active">
+                        <img src="./assets/img/empresarial/empresarial_1.png" class="d-block w-100 img-fluid" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/empresarial/empresarial_2.png" class="d-block w-100 img-fluid" alt="...">
+                    </div>
                 </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselKualiIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselKualiIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
+        </div>
 
-            <div class="text-center bg-header">
-                <h1 class="text-white fw-bold py-3">Una solución para cada necesidad</h1>
-                <div class="w-100" style="background-image: url(./assets/img/empresarial/background-empresarial.jpg);background-size: cover;">
-                    <div class="row py-4">
-                        <div class="col py-4" data-bs-toggle="modal" data-bs-target="#empresarialModal" style="cursor:pointer">
-                            <div class="container-img-paquetes">
-                                <img src="./assets/img/empresarial/internet_empresarial.png" class="img-fluid hvr-grow img-empresarial" alt="Internet Empresarial">
-                            </div>
+        <div class="text-center bg-header">
+            <h1 class="text-white fw-bold py-3">Una solución para cada necesidad</h1>
+            <div class="w-100" style="background-image: url(./assets/img/empresarial/background-empresarial.jpg);background-size: cover;">
+                <div class="row py-4">
+                    <div class="col py-4" data-bs-toggle="modal" data-bs-target="#empresarialModal" style="cursor:pointer">
+                        <div class="container-img-paquetes">
+                            <img src="./assets/img/empresarial/internet_empresarial.png" class="img-fluid hvr-grow img-empresarial" alt="Internet Empresarial">
                         </div>
-                        <div class="col py-4" data-bs-toggle="modal" data-bs-target="#dedicadoModal" style="cursor:pointer">
-                            <div class="container-img-paquetes">
-                                <img src="./assets/img/empresarial/internet_dedicado.png" class="img-fluid hvr-grow img-empresarial" alt="Internet Dedicado">
-                            </div>
+                    </div>
+                    <div class="col py-4" data-bs-toggle="modal" data-bs-target="#dedicadoModal" style="cursor:pointer">
+                        <div class="container-img-paquetes">
+                            <img src="./assets/img/empresarial/internet_dedicado.png" class="img-fluid hvr-grow img-empresarial" alt="Internet Dedicado">
                         </div>
                     </div>
                 </div>
             </div>
-
-            <!-- Modal Mision -->
-            <div class="modal fade" id="empresarialModal" tabindex="-1" aria-labelledby="empresarialModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                        <div class="modal-header bg-mision">
-                            <h1 class="modal-title text-white fs-5" id="empresarialModalLabel">INTERNET EMPRESARIAL</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body text-justify">
-                            <ul class="list-unstyled">
-                                <li><i class="bi bi-check-lg"></i> Misma velocidad para enviar, subir y descargar.</li>
-                                <li><i class="bi bi-check-lg"></i> Permite la realización de varias acciones de manera simultánea.</li>
-                                <li><i class="bi bi-check-lg"></i> Conexión estable.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!------------------->
-
-            <!-- Modal Vision -->
-            <div class="modal fade" id="dedicadoModal" tabindex="-1" aria-labelledby="dedicadoModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                        <div class="modal-header bg-vision">
-                            <h1 class="modal-title text-white fs-5" id="dedicadoModalLabel">INTERNET DEDICADO</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body text-justify">
-                            <ul class="list-unstyled">
-                                <li><i class="bi bi-check-lg"></i> 100% fibra óptica.</li>
-                                <li><i class="bi bi-check-lg"></i> Uso exclusivo del ancho de banda.</li>
-                                <li><i class="bi bi-check-lg"></i> Conexión estable.</li>
-                                <li><i class="bi bi-check-lg"></i> Misma velocidad para enviar, subir y descargar.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!------------------->
-
-            <!-- Modal Valores -->
-            <div class="modal fade" id="valoresModal" tabindex="-1" aria-labelledby="valoresModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                        <div class="modal-header bg-valores">
-                            <h1 class="modal-title text-white fs-5" id="valoresModalLabel">NUESTROS VALORES</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body text-justify">
-                        <ul class="list-unstyled">
-                            <li><i class="bi bi-check"></i> Trabajo en equipo</li>
-                            <li><i class="bi bi-check"></i> Crecimiento / Desarrollo personal y profesional</li>
-                            <li><i class="bi bi-check"></i> Excelencia</li>
-                            <li><i class="bi bi-check"></i> Responsabilidad</li>
-                        </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!------------------->
+        </div>
 
         <footer class="" style="background-color: #000000;">
             <div class="container">
                 <!-- Row START -->
                 <div class="row">
-
                     <!-- Widget 2 START -->
                     <div class="col-lg-12 ms-auto">
                         <div class="row">
