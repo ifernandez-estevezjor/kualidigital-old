@@ -44,10 +44,10 @@
 
         <title>KualiDigital - Empresarial</title>
     </head>
-    <body>
+    <body style="background-image: url(./assets/img/empresarial/background-empresarial.jpg);background-size:cover;background-attachment: fixed;">
         <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm rounded">
             <div class="container-fluid mx-3">
-                <a class="navbar-brand" href="iniciar.php"><img src="./assets/img/inicio/logo-kuali.png" class="img-fluid" width="150" height="40" alt="Logo KualiDigital"></a>
+                <a class="navbar-brand" href="index.html"><img src="./assets/img/inicio/logo-kuali.png" class="img-fluid" width="150" height="40" alt="Logo KualiDigital"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -59,25 +59,25 @@
                                 SERVICIOS
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="http://localhost/kualidigital/servicios.php/#ancla-internet">Internet</a></li>
-                                <li><a class="dropdown-item" href="http://localhost/kualidigital/servicios.php/#ancla-kualitv">KualiTV</a></li>
-                                <li><a class="dropdown-item" href="speedtest.php">Speed Test</a></li>
+                                <li><a class="dropdown-item" href="http://localhost/kualidigital/servicios.html#ancla-internet">Internet</a></li>
+                                <li><a class="dropdown-item" href="http://localhost/kualidigital/servicios.html#ancla-kualitv">KualiTV</a></li>
+                                <li><a class="dropdown-item" href="speedtest.html">Speed Test</a></li>
                             </ul>
                         </li>
                         <li class="nav-item mx-1">
-                            <a class="nav-link fw-bold nav-paquetes" href="paquetes.php">PAQUETES</a>
+                            <a class="nav-link fw-bold nav-paquetes" href="paquetes.html">PAQUETES</a>
                         </li>
                         <li class="nav-item mx-1">
-                            <a class="nav-link fw-bold nav-nosotros" href="nosotros.php">NOSOTROS</a>
+                            <a class="nav-link fw-bold nav-nosotros" href="nosotros.html">NOSOTROS</a>
                         </li>
                         <li class="nav-item mx-1">
-                            <a class="nav-link fw-bold nav-cobertura" href="cobertura.php">COBERTURA</a>
+                            <a class="nav-link fw-bold nav-cobertura" href="cobertura.html">COBERTURA</a>
                         </li>
                         <li class="nav-item mx-1">
-                            <a class="nav-link fw-bold nav-productos" href="otros-productos.php">OTROS PRODUCTOS</a>
+                            <a class="nav-link fw-bold nav-productos" href="otros-productos.html">OTROS PRODUCTOS</a>
                         </li>
                         <li class="nav-item mx-1">
-                            <a class="nav-link fw-bold nav-contacto" href="contacto-soporte.php">CONTACTO Y SOPORTE</a>
+                            <a class="nav-link fw-bold nav-contacto" href="contacto-soporte.html">CONTACTO Y SOPORTE</a>
                         </li>
                     </ul>
                     <div class="flex text-center">
@@ -87,7 +87,7 @@
                         <div class="me-2">
                             <ul class="navbar-nav mx-3 me-auto mb-lg-0">
                                 <li class="nav-item mx-1">
-                                    <a class="nav-link fw-bold nav-residencial" href="empresarial.php">EMPRESARIAL</a>
+                                    <a class="nav-link fw-bold nav-residencial" href="empresarial.html">EMPRESARIAL</a>
                                 </li>
                             </ul>
                         </div>
@@ -96,8 +96,8 @@
             </div>
         </nav>
 
-        <div class="text-center py-3 bg-header">
-            <a href="contacto.php" class="text-white fw-bold p-2 hvr-pulse btn btn-atencion">¡Quiero que me contacten!</a>
+        <div class="text-center py-3">
+            <a href="contacto-soporte.html" class="text-white fw-bold p-2 hvr-pulse btn btn-atencion">¡Quiero que me contacten!</a>
         </div>
 
         <div class="container-carousel">
@@ -109,17 +109,17 @@
                 <div class="carousel-inner">
                     <div class="row justify-content-end mx-3 my-2 form-empresarial">
                         <div class="col-3 bg-white rounded">
-                            <img src="./assets/img/empresarial/logo-kuali-empresarial.png" class="img-fluid w-75 mx-auto d-block my-3" alt="">
+                            <img src="./assets/img/empresarial/logo-kuali-empresarial.png" class="img-fluid w-75 mx-auto d-block my-3" alt="Kuali Empresarial">
                             <form class="my-3 mx-3" action="">
                                 <div class="col">
                                     <div class="mb-3">
-                                        <input type="text" class="form-control fst-italic" id="InputNombre" placeholder="Nombre Completo">
+                                        <input type="text" class="form-control fst-italic" id="InputNombre" placeholder="Nombre Completo" required>
                                     </div>
                                     <div class="mb-3">
-                                        <input type="text" class="form-control fst-italic" id="InputTelefono" placeholder="Teléfono">
+                                        <input type="text" class="form-control fst-italic" id="InputTelefono" placeholder="Teléfono" required>
                                     </div>
                                     <div class="mb-3">
-                                        <input type="text" class="form-control fst-italic" id="InputCodigoPostal" placeholder="Código Postal">
+                                        <input type="text" class="form-control fst-italic" id="InputCodigoPostal" placeholder="Código Postal" required>
                                     </div>
                                     <div class="mb-3">
                                         <input type="email" class="form-control fst-italic" id="InputEmail" placeholder="Email">
@@ -147,9 +147,9 @@
             </div>
         </div>
 
-        <div class="text-center bg-header">
+        <div class="text-center">
             <h1 class="text-white fw-bold py-3">Una solución para cada necesidad</h1>
-            <div class="w-100" style="background-image: url(./assets/img/empresarial/background-empresarial.jpg);background-size: cover;">
+            <div class="d-block w-100">
                 <div class="row py-4">
                     <div class="col py-4" data-bs-toggle="modal" data-bs-target="#empresarialModal" style="cursor:pointer">
                         <div class="container-img-paquetes">
@@ -165,10 +165,56 @@
             </div>
         </div>
 
-        <footer class="" style="background-color: #000000;">
+        <!-- Modal Internet Empresarial -->
+        <div class="modal fade" id="empresarialModal" tabindex="-1" aria-labelledby="empresarialModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header bg-header">
+                        <h1 class="modal-title fs-5 text-white" id="empresarialModalLabel">INTERNET EMPRESARIAL</h1>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="list-unstyled">
+                            <li><i class="bi bi-check2"></i> Misma velocidad para enviar, subir y descargar.</li>
+                            <li><i class="bi bi-check2"></i> Permite la realización de varias acciones de manera simultánea.</li>
+                            <li><i class="bi bi-check2"></i> Conexión estable.</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Modal Internet Empresarial -->
+
+        <!-- Modal Internet Dedicado -->
+        <div class="modal fade" id="dedicadoModal" tabindex="-1" aria-labelledby="dedicadoModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header bg-header">
+                        <h1 class="modal-title fs-5 text-white" id="dedicadoModalLabel">INTERNET DEDICADO</h1>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="list-unstyled">
+                            <li><i class="bi bi-check2"></i> 100% fibra óptica.</li>
+                            <li><i class="bi bi-check2"></i> Uso exclusivo del ancho de banda.</li>
+                            <li><i class="bi bi-check2"></i> Conexión estable.</li>
+                            <li><i class="bi bi-check2"></i> Misma velocidad para enviar, subir y descargar.</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Modal Internet Dedicado -->
+
+        <footer class="">
             <div class="container">
                 <!-- Row START -->
                 <div class="row">
+
                     <!-- Widget 2 START -->
                     <div class="col-lg-12 ms-auto">
                         <div class="row">
@@ -176,11 +222,11 @@
                             <div class="col-6 col-md-3 pt-3">
                                 <h5 class="text-white pb-2">SÍGUENOS</h5>
                                 <ul class="nav">
-                                    <li class="nav-item p-1 hvr-grow"><a class="" href="https://www.facebook.com/kualidigital" target="_blank"><img src="./assets/img/inicio/facebook.png" class="img-fluid logo-facebook" alt="Facebook"></a></li>
-                                    <li class="nav-item p-1 hvr-grow"><a class="" href="https://www.instagram.com/kuali.digital/" target="_blank"><img src="./assets/img/inicio/instagram.png" class="img-fluid logo-instagram" alt="Instagram"></a></li>
-                                    <li class="nav-item p-1 hvr-grow"><a class="" href="https://wa.me/+5215578784652?text=" target="_blank"><img src="./assets/img/inicio/whatsapp.png" class="img-fluid logo-whatsapp" alt="WhatsApp"></a></li>
-                                    <li class="nav-item p-1 hvr-grow"><a class="" href="https://www.youtube.com/@kuali_digital" target="_blank"><img src="./assets/img/inicio/youtube.png" class="img-fluid logo-youtube" alt="YouTube"></a></li>
-                                    <li class="nav-item p-1 hvr-grow"><a class="" href="https://www.tiktok.com/@kualidigital" target="_blank"><img src="./assets/img/inicio/tiktok.png" class="img-fluid logo-tiktok" alt="TikTok"></a></li>
+                                    <li class="nav-item p-1 hvr-grow"><a class="" href="https://www.facebook.com/kualidigital" target="_blank" rel="noopener noreferrer"><img src="./assets/img/inicio/facebook.png" class="img-fluid logo-facebook" alt="Facebook"></a></li>
+                                    <li class="nav-item p-1 hvr-grow"><a class="" href="https://www.instagram.com/kuali.digital/" target="_blank" rel="noopener noreferrer"><img src="./assets/img/inicio/instagram.png" class="img-fluid logo-instagram" alt="Instagram"></a></li>
+                                    <li class="nav-item p-1 hvr-grow"><a class="" href="https://wa.me/+5215578784652?text=" target="_blank" rel="noopener noreferrer"><img src="./assets/img/inicio/whatsapp.png" class="img-fluid logo-whatsapp" alt="WhatsApp"></a></li>
+                                    <li class="nav-item p-1 hvr-grow"><a class="" href="https://www.youtube.com/@kuali_digital" target="_blank" rel="noopener noreferrer"><img src="./assets/img/inicio/youtube.png" class="img-fluid logo-youtube" alt="YouTube"></a></li>
+                                    <li class="nav-item p-1 hvr-grow"><a class="" href="https://www.tiktok.com/@kualidigital" target="_blank" rel="noopener noreferrer"><img src="./assets/img/inicio/tiktok.png" class="img-fluid logo-tiktok" alt="TikTok"></a></li>
                                 </ul>
                                 <p class="text-white pt-3">Buzón al Director</p>
                             </div>
@@ -189,7 +235,7 @@
                             <div class="col-6 col-md-3 pt-3">
                                 <h5 class="text-white pb-2">CONOCE MÁS</h5>
                                 <div class="container-chevron ps-5">
-                                    <a href="nosotros.php"><img src="./assets/img/inicio/chevron-down.png" class="img-fluid img-chevron hvr-sink" alt=""></a>
+                                    <a href="nosotros.html"><img src="./assets/img/inicio/chevron-down.png" class="img-fluid img-chevron hvr-sink" alt=""></a>
                                 </div>
                             </div>
                                             
@@ -208,7 +254,7 @@
                             <div class="col-6 col-md-3 pt-3">
                                 <h5 class="text-white pb-2">ATENCIÓN PERSONALIZADA</h5>
                                 <div class="container-atencion text-center">
-                                    <a href="contacto.php" class="text-white fw-bold p-2 hvr-pulse btn btn-atencion">¡Quiero que me contacten!</a>
+                                    <a href="contacto-soporte.html" class="text-white fw-bold p-2 hvr-pulse btn btn-atencion">¡Quiero que me contacten!</a>
                                 </div>
                             </div>
                         </div>
@@ -218,12 +264,12 @@
                 </div><!-- Row END -->
             </div>
             <div class="col">
-            <div class="text-center text-footer"><a href="" class="text-decoration-none text-secondary">Aviso de Privacidad</a> | <a href="" class="text-decoration-none text-secondary">Código de prácticas comerciales</a> | <a href="" class="text-decoration-none text-secondary">Título de concesión única para uso comercial</a> | <a href="" class="text-decoration-none text-secondary">Registro público de contratos de adhesión de telecomunicaciones</a></div>
-            <div class="text-center text-footer"><a href="" class="text-decoration-none text-secondary">Colaboración con la justicia</a> | <a href="" class="text-decoration-none text-secondary">Carta Derechos Mínimos de los Usuarios IFT</a> | <a href="" class="text-decoration-none text-secondary">Contrato de Prestación de Servicios de Internet</a> | <a href="" class="text-decoration-none text-secondary">Tarifas de Internet</a> | <a href="" class="text-decoration-none text-secondary">Zona de Cobertura</a> | <a href="" class="text-decoration-none text-secondary">Término de Contrato</a></div>
+                <div class="text-center text-footer"><a href="" class="text-decoration-none text-secondary" rel="noopener noreferrer">Aviso de Privacidad</a> | <a href="" class="text-decoration-none text-secondary" rel="noopener noreferrer">Código de prácticas comerciales</a> | <a href="" class="text-decoration-none text-secondary" rel="noopener noreferrer">Título de concesión única para uso comercial</a> | <a href="" class="text-decoration-none text-secondary" rel="noopener noreferrer">Registro público de contratos de adhesión de telecomunicaciones</a></div>
+                <div class="text-center text-footer"><a href="" class="text-decoration-none text-secondary" rel="noopener noreferrer">Colaboración con la justicia</a> | <a href="" class="text-decoration-none text-secondary" rel="noopener noreferrer">Carta Derechos Mínimos de los Usuarios IFT</a> | <a href="" class="text-decoration-none text-secondary" rel="noopener noreferrer">Contrato de Prestación de Servicios de Internet</a> | <a href="" class="text-decoration-none text-secondary" rel="noopener noreferrer">Tarifas de Internet</a> | <a href="" class="text-decoration-none text-secondary" rel="noopener noreferrer">Zona de Cobertura</a> | <a href="" class="text-decoration-none text-secondary" rel="noopener noreferrer">Término de Contrato</a></div>
             </div>
         </footer>
 
-        <a href="https://wa.me/525578784652?text=Me%20gustaría%20saber%20mas%informacion%20sobre%20sus%20servicios" class="whatsapp" target="_blank"><i class="bi bi-whatsapp fs-1"></i></a>
+        <a href="https://wa.me/525578784652?text=Me%20gustaría%20saber%20mas%informacion%20sobre%20sus%20servicios" class="whatsapp" target="_blank" rel="noopener noreferrer"><i class="bi bi-whatsapp fs-1"></i></a>
 
         <script src="./assets/js/bootstrap.js"></script>
         <script src="./assets/js/bootstrap.bundle.js"></script>

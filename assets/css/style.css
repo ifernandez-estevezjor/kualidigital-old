@@ -60,9 +60,29 @@ body{
 /*****************************/
 
 /*** Página Servicios ***/
-.container-conectate{
-
+.bg-videojuegos{
+    background-color: #99429f;
 }
+.bg-peliculas{
+    background-color: #e81630;
+}
+.bg-homeoffice{
+    background-color: #8cc74f;
+}
+.bg-videochats{
+    background-color: #f4ab0f;
+}
+#producto{
+    position: relative;
+}
+.servicios-kuali{
+    position:absolute;
+    top:0px;
+    /*left:10px;*/
+    border:none;
+    width: 5%;
+}
+
 
 .btn-descargar{
     background-color: #3a5b79;
