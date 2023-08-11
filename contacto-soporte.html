@@ -81,9 +81,9 @@
                         </li>
                     </ul>
                     <div class="flex text-center">
-                        <div class="me-2">
+                        <!--<div class="me-2">
                             <a class="" href=""><i class="bi bi-person fs-2 text-dark hvr-push"></i></a>
-                        </div>
+                        </div>-->
                         <div class="me-2">
                             <ul class="navbar-nav mx-3 me-auto mb-lg-0">
                                 <li class="nav-item mx-1">
@@ -106,19 +106,24 @@
             </div>
         </div>
 
-        <div class="container-contacto">
+        <div class="container-contacto" id="ancla-contacto">
             <h1 class="text-white text-center fw-bold">MÁNDANOS TUS COMENTARIOS</h1>
         </div>
         <div class="container my-3">
             <form class="g-3">
+                <div class="row text-center my-3">
+                    <div class="col-12">
+                        <p>Los campos marcados con <span class="required-input">*</span> son obligatorios.</p>
+                    </div>
+                </div>
                 <div class="row justify-content-center">
                     <div class="col-md-3">
                         <label for="inputNombre" class="form-label fw-bold">Nombre<span class="required-input">*</span></label>
                         <input type="text" class="form-control" name="nombre" aria-label="Nombre" required>
                     </div>
                     <div class="col-md-3">
-                        <label for="inputNumContrato" class="form-label fw-bold">Número de Contrato<span class="required-input">*</span></label>
-                        <input type="text" class="form-control" name="num_contrato" aria-label="No Contrato" required>
+                        <label for="inputNumContrato" class="form-label fw-bold">No. de Contrato</label>
+                        <input type="text" class="form-control" name="numero_contrato" aria-label="Número de Contrato">
                     </div>
                 </div>
                 <div class="row justify-content-center">
@@ -136,6 +141,12 @@
                         <label for="inputMensaje" class="form-label fw-bold"><span class="text-mensaje">¿En qué podemos ayudarte?</span><span class="required-input">*</span></label>
                         <textarea class="form-control" name="mensaje" id="" cols="20" rows="5" required></textarea>
                         <div id="mensajeHelp" class="form-text">Sólo se permiten 500 caracteres letras, números, puntos y comas.</div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                        <label class="form-check-label" for="exampleCheck1">Aceptar <a href="" class="text-decoration-none">Aviso de Privacidad</a>.</label>
                     </div>
                 </div>
                 <div class="row text-center my-3">
@@ -161,8 +172,6 @@
                                     <li class="nav-item p-1 hvr-grow"><a class="" href="https://www.facebook.com/kualidigital" target="_blank" rel="noopener noreferrer"><img src="./assets/img/inicio/facebook.png" class="img-fluid logo-facebook" alt="Facebook"></a></li>
                                     <li class="nav-item p-1 hvr-grow"><a class="" href="https://www.instagram.com/kuali.digital/" target="_blank" rel="noopener noreferrer"><img src="./assets/img/inicio/instagram.png" class="img-fluid logo-instagram" alt="Instagram"></a></li>
                                     <li class="nav-item p-1 hvr-grow"><a class="" href="https://wa.me/+5215578784652?text=" target="_blank" rel="noopener noreferrer"><img src="./assets/img/inicio/whatsapp.png" class="img-fluid logo-whatsapp" alt="WhatsApp"></a></li>
-                                    <li class="nav-item p-1 hvr-grow"><a class="" href="https://www.youtube.com/@kuali_digital" target="_blank" rel="noopener noreferrer"><img src="./assets/img/inicio/youtube.png" class="img-fluid logo-youtube" alt="YouTube"></a></li>
-                                    <li class="nav-item p-1 hvr-grow"><a class="" href="https://www.tiktok.com/@kualidigital" target="_blank" rel="noopener noreferrer"><img src="./assets/img/inicio/tiktok.png" class="img-fluid logo-tiktok" alt="TikTok"></a></li>
                                 </ul>
                                 <p class="text-white pt-3">Buzón al Director</p>
                             </div>
@@ -200,8 +209,8 @@
                 </div><!-- Row END -->
             </div>
             <div class="col">
-                <div class="text-center text-footer"><a href="" class="text-decoration-none text-secondary" rel="noopener noreferrer">Aviso de Privacidad</a> | <a href="" class="text-decoration-none text-secondary" rel="noopener noreferrer">Código de prácticas comerciales</a> | <a href="" class="text-decoration-none text-secondary" rel="noopener noreferrer">Título de concesión única para uso comercial</a> | <a href="" class="text-decoration-none text-secondary" rel="noopener noreferrer">Registro público de contratos de adhesión de telecomunicaciones</a></div>
-                <div class="text-center text-footer"><a href="" class="text-decoration-none text-secondary" rel="noopener noreferrer">Colaboración con la justicia</a> | <a href="" class="text-decoration-none text-secondary" rel="noopener noreferrer">Carta Derechos Mínimos de los Usuarios IFT</a> | <a href="" class="text-decoration-none text-secondary" rel="noopener noreferrer">Contrato de Prestación de Servicios de Internet</a> | <a href="" class="text-decoration-none text-secondary" rel="noopener noreferrer">Tarifas de Internet</a> | <a href="" class="text-decoration-none text-secondary" rel="noopener noreferrer">Zona de Cobertura</a> | <a href="" class="text-decoration-none text-secondary" rel="noopener noreferrer">Término de Contrato</a></div>
+                <div class="text-center text-footer"><a href="" class="text-decoration-none text-secondary" rel="noopener noreferrer" target="_blank">Aviso de Privacidad</a> | <a href="" class="text-decoration-none text-secondary" rel="noopener noreferrer" target="_blank">Código de prácticas comerciales</a> | <a href="" class="text-decoration-none text-secondary" rel="noopener noreferrer" target="_blank">Título de concesión única para uso comercial</a> | <a href="" class="text-decoration-none text-secondary" rel="noopener noreferrer" target="_blank">Registro público de contratos de adhesión de telecomunicaciones</a></div>
+                <div class="text-center text-footer"><a href="" class="text-decoration-none text-secondary" rel="noopener noreferrer" target="_blank">Colaboración con la justicia</a> | <a href="" class="text-decoration-none text-secondary" rel="noopener noreferrer" target="_blank">Carta Derechos Mínimos de los Usuarios IFT</a> | <a href="" class="text-decoration-none text-secondary" rel="noopener noreferrer" target="_blank">Contrato de Prestación de Servicios de Internet</a></div>
             </div>
         </footer>
 
