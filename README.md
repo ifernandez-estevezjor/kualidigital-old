@@ -10,3 +10,4 @@ Página web KualiDigital
 - Documentos PDF se abren en una pestaña nueva.
 - El campo número de contrato se hizo opcional.
 - Se agregó checkbox para aceptar Aviso de Privacidad en los formularios.
+- Se agregaron los documentos PDF en el footer.
