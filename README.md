@@ -12,3 +12,13 @@ Página web KualiDigital
 - El campo número de contrato se hizo opcional.
 - Se agregó checkbox para aceptar Aviso de Privacidad en los formularios.
 - Se agregaron los documentos PDF en el footer.
+
+
+# Modificaciones archivo Google Drive. 21/08/2023
+
+- Se cambió el título "KualiTV" a "TV por Streaming".
+- Quitar el nombre del proveedor velocidad de internet. (Pendiente)
+- Se modificó el título "KualiTV" a "KualiDigital".
+- Corrección del texto en Misión y Visión.
+- Se corrigió el texto debajo del mapa de cobertura.
+- Se eliminaron textos duplicados en la pestaña Otros Productos y se modificó el texto debajo de los productos.
