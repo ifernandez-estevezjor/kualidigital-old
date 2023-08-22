@@ -613,6 +613,10 @@ footer{
     background-color: lightgray;
     color: #fff;
 }
+
+.error{
+    color: red;
+}
 /*-------------------------------*/
 
 /*** Página Empresarial ***/
@@ -676,3 +680,110 @@ footer{
     height: 220px;
 }
 /*------------------------*/
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .video-nosotros{
+        height: 150px;
+        width: 150px;
+    }
+        .whatsapp {
+        position:fixed;
+        width:55px;
+        height:55px;
+        bottom:20px;
+        right:20px;
+        background-color:#25d366;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        font-size:30px;
+        z-index:100;
+    }
+    .img-resp-kualitv{
+        width: 200px;
+        height: 200px;
+    }
+    .btn-ir{
+        width: 80px;
+        height: 50px;
+    }
+    .img-contacto-resp{
+        height: 200px;
+    }
+    .btn-contactar{
+        width: 220px;
+        font-size: 14px;
+    }
+    .map-cobertura{
+        width: 150px;
+    }
+    .fondo1{
+        width: 250px;
+    }
+    .img-clientes{
+        height: 200px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}
+
+@media only screen and ( max-width: 480px ) {
+	.fondo1{
+        width: 1000px;
+    }
+    .img-contacto-soporte{
+        height: 200px;
+    }
+    .img-empresarial{
+        height: 180px;
+    }
+    .carousel-inner{
+        height: 200px;
+    }
+    .img-car-emp{
+        height: 200px;
+    }
+    .map-cobertura{
+        width: 50px;
+    }
+    .paq1-resp{
+        padding: 10px;
+        background-color: red;
+    }
+    .banner-paq-resp{
+        background-color: red;
+    }
+}
+
+/* IPhone 6, 7, 8 y 10*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) { 
+    .rokuexpress1, .vectormax1, .decom41{
+        height: 180px;
+    }
+    .text-contactanos{
+        font-size: 45px;
+    }
+    .img-resp-kualitv{
+        width: 600px;
+    }
+}

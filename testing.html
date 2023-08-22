@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="./assets/js/validation.js"></script>
+</head>
+<body>
+    <form action="" name="fvalida">
+        <div class="row justify-content-center">
+            <div class="col-md-3">
+                <label for="inputNombre" class="form-label fw-bold">Nombre<span class="required-input">*</span></label>
+                <input type="text" class="form-control" name="nombre" aria-label="Nombre" required>
+            </div>
+            <!--<div class="col-md-3">
+                <label for="inputNumContrato" class="form-label fw-bold">No. de Contrato</label>
+                <input type="text" class="form-control" name="numero_contrato" aria-label="Número de Contrato">
+            </div>-->
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-3">
+                <label for="inputCodigoPostal" class="form-label fw-bold">Código Postal<span class="required-input">*</span></label>
+                <input type="text" class="form-control" name="codigo_postal" aria-label="Código Postal" required>
+            </div>
+            <div class="col-md-3">
+                <label for="inputTelefonoContacto" class="form-label fw-bold">Teléfono de Contacto<span class="required-input">*</span></label>
+                <input type="text" class="form-control" name="telefono_contacto" aria-label="Teléfono Contacto" required>
+            </div>
+        </div>
+        <!--<div class="row justify-content-center my-3">
+            <div class="col-md-6">
+                <label for="inputMensaje" class="form-label fw-bold"><span class="text-mensaje">¿En qué podemos ayudarte?</span><span class="required-input">*</span></label>
+                <textarea class="form-control" name="mensaje" id="" cols="20" rows="5" required></textarea>
+                <div id="mensajeHelp" class="form-text">Sólo se permiten 500 caracteres letras, números, puntos y comas.</div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                <label class="form-check-label" for="exampleCheck1">Aceptar <a href="" class="text-decoration-none">Aviso de Privacidad</a>.</label>
+            </div>
+        </div>-->
+        <div class="row text-center my-3">
+            <div class="col-12">
+                <button type="button" value="Enviar" onclick="valida_envia()" class="btn btn-form fw-bold">Enviar</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

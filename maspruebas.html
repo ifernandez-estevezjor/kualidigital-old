@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Nombre: <input type="text" id="nombre" name="nombre">
+    <button type="button" onclick="validateForm()">Enviar</button>
+    <p id="message"></p>
+
+    <script>
+        function validateForm(){
+    let a = document.getElementById("nombre").value;
+    let text;
+
+    if(x == ""){
+        text = "Escribe tu nombre";
+    }else{
+        text = "OK";
+    }
+    document.getElementById("message").innerHTML = text;
+}
+    </script>
+</body>
+</html>

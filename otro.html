@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function validateForm() {
+            let a = document.forms["myForm"]["nombre"].value;
+            let b = document.forms["myForm"]["codigo_postal"].value;
+            let c = document.forms["myForm"]["codigo_postal"].value;
+                if (a == "") {
+                    alert("Name must be filled out");
+                    return false;
+                }
+                if (b == "") {
+                    alert("Llena el campo");
+                    return false;
+                }
+        }
+    </script>
+</head>
+<body>
+    <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+        Name: <input type="text" name="nombre">
+        Codigo Postal: <input type="text" name="codigo_postal">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

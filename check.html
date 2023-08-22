@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="./assets/js/check.js"></script>
+    <!--<script type="text/javascript">  
+        function validate(){  
+        var name=document.f1.name.value;  
+        var passwordlength=document.f1.password.value.length;  
+        var status=false;  
+        if(name==""){  
+        document.getElementById("namelocation").innerHTML=  
+        " <img src='http://www.javatpoint.com/javascriptpages/images/unchecked.gif'/> Please enter your name";  
+        status=false;
+        }else{  
+        document.getElementById("namelocation").innerHTML=" <img src='http://www.javatpoint.com/javascriptpages/images/checked.gif'/>";  
+        status=true;
+        }  
+          
+        if(passwordlength<6){  
+        document.getElementById("passwordlocation").innerHTML=  
+        " <img src='http://www.javatpoint.com/javascriptpages/images/unchecked.gif'/> Password must be greater than 6";  
+        status=false; 
+        }else{  
+        document.getElementById("passwordlocation").innerHTML=" <img src='http://www.javatpoint.com/javascriptpages/images/checked.gif'/>";  
+        }  
+          
+        return status;  
+        }  
+        </script>-->
+        <form name="f1" action="http://www.javatpoint.com/javascriptpages/valid.jsp" onsubmit="return validate()">  
+        <table>
+        <tr><td>Name:</td><td><input type="text" name="name"/>  
+        <span id="nameinput" style="color:red"></span></td></tr> 
+        <tr><td>Password:</td><td><input type="password" name="password"/>  
+        <span id="passwordlocation" style="color:red"></span></td></tr>
+        <tr><td colspan="2"><input type="submit" value="register"/>  </td></tr>
+        </table>
+        </form>
+
+        <!--<form name="contactform" action="" onsubmit="return validate()">
+            <label for="inputName">Nombre Completo</label>
+            <input type="text" name="nombre">
+            <span class="error" id="nombreinput"></span>
+            <input type="submit" value="Enviar">
+        </form>-->
+</body>
+</html>

@@ -45,15 +45,15 @@
         <title>KualiDigital - Otros Productos</title>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm rounded">
-            <div class="container-fluid mx-3">
+        
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
                 <a class="navbar-brand" href="index.html"><img src="./assets/img/inicio/logo-kuali.png" class="img-fluid" width="150" height="40" alt="Logo KualiDigital"></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav mx-3 me-auto mb-2 mb-lg-0">
-                        
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item dropdown">
                             <a class="nav-link fw-bold nav-servicios dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 SERVICIOS
@@ -80,12 +80,12 @@
                             <a class="nav-link fw-bold nav-contacto" href="contacto-soporte.html">CONTACTO Y SOPORTE</a>
                         </li>
                     </ul>
-                    <div class="flex text-center">
+                    <div class="flex">
                         <!--<div class="me-2">
                             <a class="" href=""><i class="bi bi-person fs-2 text-dark hvr-push"></i></a>
                         </div>-->
                         <div class="me-2">
-                            <ul class="navbar-nav mx-3 me-auto mb-lg-0">
+                            <ul class="navbar-nav me-auto mb-lg-0">
                                 <li class="nav-item mx-1">
                                     <a class="nav-link fw-bold nav-residencial" href="empresarial.html">EMPRESARIAL</a>
                                 </li>
@@ -102,9 +102,41 @@
         </div>
         <div class="container text-center my-5 mt-5">
             <div class="row">
+                <div class="col-sm-6 mb-3 mb-sm-0">
+                    <div class="card border-0">
+                        <div class="card-body">
+                            <div class="col" id="producto" data-bs-toggle="modal" data-bs-target="#rokuexpressModal" style="cursor:pointer">
+                                <img src="./assets/img/otros-productos/producto_1.png" class="img-fluid h-100 rounded fondo1" alt="Rokuexpress">
+                                <img src="./assets/img/otros-productos/rokuexpress.png" class="img-fluid h-100 rounded rokuexpress hvr-float rokuexpress" alt="Rokuexpress">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card border-0">
+                        <div class="card-body">
+                            <div class="col" id="producto" data-bs-toggle="modal" data-bs-target="#vectormaxModal" style="cursor:pointer">
+                                <img src="./assets/img/otros-productos/producto_2.png" class="img-fluid h-100 rounded" alt="Vector Max">
+                                <img src="./assets/img/otros-productos/vectormax.png" class="img-fluid h-100 rounded hvr-float vectormax" alt="Vector Max">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card border-0">
+                        <div class="card-body">
+                            <div class="col" id="producto" data-bs-toggle="modal" data-bs-target="#decom4Modal" style="cursor:pointer">
+                                <img src="./assets/img/otros-productos/producto_3.png" class="img-fluid h-100 rounded" alt="Deco M4">
+                                <img src="./assets/img/otros-productos/decom4.png" class="img-fluid h-100 rounded hvr-float decom4" alt="Deco M4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--<div class="row">
                 <div class="col" id="producto" data-bs-toggle="modal" data-bs-target="#rokuexpressModal" style="cursor:pointer">
-                    <img src="./assets/img/otros-productos/producto_1.png" class="img-fluid h-100 rounded" alt="Rokuexpress">
-                    <img src="./assets/img/otros-productos/rokuexpress.png" class="img-fluid h-100 rounded hvr-float rokuexpress" alt="Rokuexpress">
+                    <img src="./assets/img/otros-productos/producto_1.png" class="img-fluid h-100 rounded fondo1" alt="Rokuexpress">
+                    <img src="./assets/img/otros-productos/rokuexpress.png" class="img-fluid h-100 rounded rokuexpress hvr-float rokuexpress" alt="Rokuexpress">
                 </div>
                 <div class="col" id="producto" data-bs-toggle="modal" data-bs-target="#vectormaxModal" style="cursor:pointer">
                     <img src="./assets/img/otros-productos/producto_2.png" class="img-fluid h-100 rounded" alt="Vector Max">
@@ -114,7 +146,7 @@
                     <img src="./assets/img/otros-productos/producto_3.png" class="img-fluid h-100 rounded" alt="Deco M4">
                     <img src="./assets/img/otros-productos/decom4.png" class="img-fluid h-100 rounded hvr-float decom4" alt="Deco M4">
                 </div>
-            </div>
+            </div>-->
             <h2 class="text-secondary text-center fst-italic my-3">Con lo último en tecnología para lograr la mayor velocidad de navegación <br>
             mediante nuestra Red de Fibra Óptica y cobertura Wireless.</h2>
             <h2 class="text-secondary text-center fst-italic">¡Muy pronto a tu alcance!</h2>
@@ -217,7 +249,6 @@
 
         <a href="https://wa.me/525578784652?text=Me%20gustaría%20saber%20mas%20informacion%20sobre%20sus%20servicios" class="whatsapp" target="_blank" rel="noopener noreferrer"><i class="bi bi-whatsapp fs-1"></i></a>
 
-        <script src="./assets/js/bootstrap.js"></script>
-        <script src="./assets/js/bootstrap.bundle.js"></script>
+        <script src="./assets/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
