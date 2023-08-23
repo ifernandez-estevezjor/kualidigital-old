@@ -22,3 +22,14 @@ Página web KualiDigital
 - Corrección del texto en Misión y Visión.
 - Se corrigió el texto debajo del mapa de cobertura.
 - Se eliminaron textos duplicados en la pestaña Otros Productos y se modificó el texto debajo de los productos.
+
+
+# Modificaciones archivo Google Drive 23/08/2023
+
+- Se modificó el vector morado de "KualiTV" por "Servicio por Streaming".
+- Se modificó el header de los paquetes en la página de Inicio y Paquetes.
+- Se cambió el banner "KualiTV" por "Servicio por Streaming.
+- Modificación del texto "Ir a KualiTV" por "Todos los canales".
+- Se cambió el vector "KualiTV" por "Servicio por Streaming en la pestaña de Servicios.
+- Modificación del texto en el PopUp de KualiTV.
+- Se cambió el banner para descargar la app.

@@ -410,17 +410,17 @@ footer{
 }
 
 .img-servicios{
-    width: 220px;
-    height: 220px;
+    width: 180px;
+    height: 180px;
     cursor: pointer;
 }
 .img-internet, .img-plazos, .img-instalacion{
     cursor: pointer;
 }
-.header-kualitv{
+.header-streaming{
     background-color: #7c2380;
 }
-.text-kualitv{
+.text-streaming{
     color: #7c2380;
 }
 .header-internet{
