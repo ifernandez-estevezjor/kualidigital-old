@@ -41,3 +41,4 @@ Página web KualiDigital
 - Modificación del texto en sección "Nosotros".
 - Se cambió el mapa de la cobertura en sección "Cobertura".
 - Cambió el orden de los tipos de internet en la sección "Empresarial".
+- Se agregó enlace "Tarifas" en el footer de las páginas.
