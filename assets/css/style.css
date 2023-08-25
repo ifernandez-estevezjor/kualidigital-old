@@ -234,7 +234,7 @@ body{
 }
 
 .card-paquete4{
-    border-color: #38434f;
+    border-color: #78007f;
     border-width: 2px;
 }
 
@@ -537,6 +537,11 @@ footer{
 .text-redkuali{
     color: #172a4e;
 }
+
+.img-cobertura{
+    width: 50%;
+    height: 50%;
+}
 /*----------------------*/
 
 /*** Página Otros Productos ***/
@@ -724,6 +729,9 @@ footer{
     }
     .img-clientes{
         height: 200px;
+    }
+    .img-cobertura{
+        width: 400px;
     }
 }
 

@@ -151,6 +151,11 @@
             <h1 class="text-white fw-bold py-3">Una solución para cada necesidad</h1>
             <div class="d-block w-100">
                 <div class="row py-4">
+                    <div class="col py-4" data-bs-toggle="modal" data-bs-target="#pymeModal" style="cursor:pointer">
+                        <div class="container-img-paquetes">
+                            <img src="./assets/img/empresarial/internet_pyme.png" class="img-fluid hvr-grow img-empresarial" alt="Internet PyME">
+                        </div>
+                    </div>
                     <div class="col py-4" data-bs-toggle="modal" data-bs-target="#empresarialModal" style="cursor:pointer">
                         <div class="container-img-paquetes">
                             <img src="./assets/img/empresarial/internet_empresarial.png" class="img-fluid hvr-grow img-empresarial" alt="Internet Empresarial">
@@ -161,14 +166,31 @@
                             <img src="./assets/img/empresarial/internet_dedicado.png" class="img-fluid hvr-grow img-empresarial" alt="Internet Dedicado">
                         </div>
                     </div>
-                    <div class="col py-4" data-bs-toggle="modal" data-bs-target="#pymeModal" style="cursor:pointer">
-                        <div class="container-img-paquetes">
-                            <img src="./assets/img/empresarial/internet_pyme.png" class="img-fluid hvr-grow img-empresarial" alt="Internet PyME">
-                        </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Internet PyME -->
+        <div class="modal fade" id="pymeModal" tabindex="-1" aria-labelledby="pymeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header bg-header">
+                        <h1 class="modal-title fs-5 text-white" id="pymeModalLabel">INTERNET PyME</h1>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="list-unstyled">
+                            <li><i class="bi bi-check2"></i> 100% fibra óptica con garantía de servicio.</li>
+                            <li><i class="bi bi-check2"></i> Conexión estable.</li>
+                            <li><i class="bi bi-check2"></i> Misma velocidad para subir y descargar.</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- End Modal Internet PyME -->
 
         <!-- Modal Internet Empresarial -->
         <div class="modal fade" id="empresarialModal" tabindex="-1" aria-labelledby="empresarialModalLabel" aria-hidden="true">
@@ -214,28 +236,6 @@
             </div>
         </div>
         <!-- End Modal Internet Dedicado -->
-
-        <!-- Modal Internet PyME -->
-        <div class="modal fade" id="pymeModal" tabindex="-1" aria-labelledby="pymeModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-header bg-header">
-                        <h1 class="modal-title fs-5 text-white" id="pymeModalLabel">INTERNET PyME</h1>
-                    </div>
-                    <div class="modal-body">
-                        <ul class="list-unstyled">
-                            <li><i class="bi bi-check2"></i> 100% fibra óptica con garantía de servicio.</li>
-                            <li><i class="bi bi-check2"></i> Conexión estable.</li>
-                            <li><i class="bi bi-check2"></i> Misma velocidad para subir y descargar.</li>
-                        </ul>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Modal Internet PyME -->
 
         <footer class="">
             <div class="container">

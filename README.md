@@ -33,3 +33,11 @@ Página web KualiDigital
 - Se cambió el vector "KualiTV" por "Servicio por Streaming en la pestaña de Servicios.
 - Modificación del texto en el PopUp de KualiTV.
 - Se cambió el banner para descargar la app.
+
+
+# Modificaciones archivo Google Drive 25/08/2023
+
+- Se cambiaron headers y footers de los paquetes de internet en el Inicio y Paquetes.
+- Modificación del texto en sección "Nosotros".
+- Se cambió el mapa de la cobertura en sección "Cobertura".
+- Cambió el orden de los tipos de internet en la sección "Empresarial".
