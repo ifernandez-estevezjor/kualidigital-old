@@ -737,22 +737,115 @@ footer{
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    
+    body{
+        /*background-color: red;*/
+    }
+    .img-resp-kualitv{
+        height: 200px;
+    }
+    .btn-ir{
+        background-color: #3a5b79;
+        border: 5px outset #3a5b79;
+        border-radius: 25px;
+        position: relative;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 999;
+        padding: 10px;
+        width: 20%;
+        height: 32px;
+        margin: 0 auto;
+        font-size: 18px;
+    }
+    .text-ir{
+        margin-bottom: -10px;
+    }
+    .btn-contactar{
+        background-color: #3a5b79;
+        border: 5px outset #3a5b79;
+        border-radius: 25px;
+        position: relative;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 999;
+        padding: 10px;
+        width: 38%;
+        margin: 0 auto;
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+    .whatsapp {
+        position:fixed;
+        width:50px;
+        height:50px;
+        bottom:20px;
+        right:20px;
+        background-color:#25d366;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        font-size:30px;
+        z-index:100;
+    }
+    .img-servicios-dos{
+        height: 180px;
+    }
+    .img-appkuali{
+        height: 240px;
+    }
+    .btn-descargar{
+        background-color: #3a5b79;
+        border: 5px outset #3a5b79;
+        border-radius: 25px;
+        position: relative;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 999;
+        padding: 5px;
+        width: 35%;
+        margin: 0 auto;
+        font-size: 18px;
+    }
+    .img-cobertura{
+        width: auto;
+        height: auto;
+    }
+    .vectormax{
+        margin-left: -40px;
+    }
+    .decom4{
+        margin-left: -60px;
+    }
+    .img-empresarial{
+        height: 150px;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    
+    body{
+        /*background-color: blue;*/
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    
+    body{
+        /*background-color: green;*/
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    
+    body{
+        /*background-color: yellow;*/
+    }
 }
 
 @media only screen and ( max-width: 480px ) {
@@ -784,7 +877,12 @@ footer{
 }
 
 /* IPhone 6, 7, 8 y 10*/
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) { 
+@media only screen and (min-width: 430px) and (max-width: 767px) {
+    body{
+        background-color: #00A5CB;
+    }
+}
+/*@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) { 
     .rokuexpress1, .vectormax1, .decom41{
         height: 180px;
     }
@@ -794,4 +892,4 @@ footer{
     .img-resp-kualitv{
         width: 600px;
     }
-}
+}*/
